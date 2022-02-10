@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "4bf4869145c6db51",
+    "type": "split",
+    "children": [
+      {
+        "id": "43ff6ba38e658ea8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "5-semestre/matematica-discreta/matematica-discreta.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e51993ab4d3e25fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba19906ce78d863b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bfb87f79550e6e30",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5a026333d2d48506",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cc47e6d1e8fd8ede",
+    "type": "split",
+    "children": [
+      {
+        "id": "832833f1edf3febe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ffa55f7fd152e71e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "5-semestre/matematica-discreta/matematica-discreta.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "43ff6ba38e658ea8",
+  "lastOpenFiles": [
+    "5-semestre/matematica-discreta/matematica-discreta.md",
+    "5-semestre/matematica-discreta/Files/MD - Fechos.md",
+    "5-semestre/matematica-discreta/Files/MD - Potência de Relações.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação Total.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação Antissimétrica.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação de Ordem.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação Simétrica.md",
+    "5-semestre/matematica-discreta/Files/MD - Composição de Relações.md",
+    "5-semestre/matematica-discreta/Files/MD - Conjunto Quociente.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação 1 para 1.md"
+  ]
+}
