@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1a1671197263d87e",
+        "id": "1858714e9689204c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "5-semestre/matematica-discreta/matematica-discreta.md",
+            "file": "5-semestre/matematica-discreta/Files/MD - Exercícios de Aula 1.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "5-semestre/matematica-discreta/matematica-discreta.md",
+                "file": "5-semestre/matematica-discreta/Files/MD - Exercícios de Aula 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1a1671197263d87e",
+  "active": "1858714e9689204c",
   "lastOpenFiles": [
+    "5-semestre/matematica-discreta/Files/MD - Exercícios de Aula 1.md",
     "5-semestre/matematica-discreta/matematica-discreta.md",
-    "5-semestre/matematica-discreta/Files/MD - Relação Binária.md",
-    "5-semestre/matematica-discreta/matematica-discreta.md",
-    "5-semestre/matematica-discreta/Files/MD - Potência de Relações.md",
     "5-semestre/matematica-discreta/Files/MD - Relação Inversa.md",
-    "5-semestre/matematica-discreta/Files/MD - Fecho Transitivo-Reflexivo.md",
+    "5-semestre/matematica-discreta/Files/MD - Potência de Relações.md",
+    "5-semestre/matematica-discreta/Files/MD - Relação sobre um conjunto.md",
+    "5-semestre/matematica-discreta/Files/MD - Composição de Relações.md",
+    "5-semestre/matematica-discreta/Files/MD - Operações de Conjunto sobre Relação.md",
     "5-semestre/matematica-discreta/Files/MD - Relação Binária.md",
-    "5-semestre/matematica-discreta/Files/MD - Fecho Transitivo.md",
-    "5-semestre/matematica-discreta/Files/MD - Fecho Reflexivo.md",
-    "5-semestre/matematica-discreta/Files/MD - Fecho Simétrico.md"
+    "5-semestre/matematica-discreta/Files/MD - Fecho Transitivo-Reflexivo.md",
+    "5-semestre/matematica-discreta/Files/MD - Fecho Transitivo.md"
   ]
 }

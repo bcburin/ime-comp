@@ -32,6 +32,8 @@
 	- [[MD - Fecho Reflexivo]]
 	- [[MD - Fecho Transitivo]]
 	- [[MD - Fecho Transitivo-Reflexivo]]
+- **Exercícios**
+	- [[MD - Exercícios de Aula 1]]
 
 
 ---

@@ -19,9 +19,10 @@ Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
 
 - $\mathcal{R} \subseteq \mathcal{S} \quad\implies \quad R^{-1} \subseteq S^{-1}$
 
-- $(\mathcal{R} \cap \mathcal{S})^{-1} = \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$
+- $(\mathcal{R} \cap \mathcal{S})^{-1} = \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$ e $(\mathcal{R} \cup \mathcal{S})^{-1} = \mathcal{R}^{-1} \cup \mathcal{S}^{-1}$
 
-- $(\mathcal{R} \cup \mathcal{S})^{-1} = \mathcal{R}^{-1} \cup \mathcal{S}^{-1}$
+- $(\mathcal{R}^n)^{-1} = (\mathcal{R}^{-1})^n$ para $n=0,1,2,3,\dots$
+
 
 Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $C$. Então
 
@@ -43,10 +44,26 @@ Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $
 	- Logo $(a,b) \in \mathcal{R} \text{ e } (a,b) \in \mathcal{S} \implies (b,a) \in \mathcal{R}^{-1} \text{ e } (b,a) \in \mathcal{S}^{-1}$
 	- De modo que $(b,a) \in \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$
 	- Portanto  $(\mathcal{R} \cap \mathcal{S})^{-1} \subseteq \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$
-   - Para provar $\mathcal{R}^{-1} \cap \mathcal{S}^{-1} \subseteq (\mathcal{R} \cap \mathcal{S})^{-1}$ basta reverter os passos acima.
+   
+   Para provar $\mathcal{R}^{-1} \cap \mathcal{S}^{-1} \subseteq (\mathcal{R} \cap \mathcal{S})^{-1}$ basta reverter os passos acima. De maneira análoga, prova-se a relação para a união.
  
- 3. Demonstração análoga à anterior.
+3. Prova por indução
+	- Caso inicial: para $n=0$, a relação se reduz a $\Delta^{-1} = \Delta$ (a [[MD - Relação de Igualdade|iguldade]] é simétrica).
+	- Hipótese indutiva: vale $(\mathcal{R}^{-1})^n = (\mathcal{R}^n)^{-1}$.
+	- Passo indutivo: 
 	
+	$$
+	\begin{align*}
+		{(\mathcal{R}^{-1})}^{n+1} 
+	&= \mathcal{R}^{-1} \circ (\mathcal{R}^{-1})^n  \\
+	&= \mathcal{R}^{-1} \circ (\mathcal{R}^{n})^{-1}
+	= (\mathcal{R} \circ \mathcal{R}^n)^{-1} \\
+	&= (\mathcal{R}^{n+1})^{-1}
+	\end{align*}
+  $$
+  O que completa a indução. Note que foi usada a distribuição da inversa sobre a composição, que será provada a seguir.
+  
+ 
 4. Provar $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
 	- Suponha $(c,a) \in (\mathcal{S \circ R})^{-1}$
 	- Então $(a,c) \in \mathcal{S \circ R}$
@@ -54,7 +71,8 @@ Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $
 	- Isso equivale a $(c,b) \in \mathcal{S}^{-1}$ e $(b,a) \in \mathcal{R}^{-1}$
 	- O que implica $(c,a) \in \mathcal{R}^{-1} \circ \mathcal{S}^{-1}$
 	- Assim,  $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
-	- Para mostrar $\mathcal{R}^{-1}\circ \mathcal{S}^{-1} (\mathcal{S \circ R})^{-1}$ basta reverter os passos acima.
+	
+	Para mostrar $\mathcal{R}^{-1}\circ \mathcal{S}^{-1} \subseteq (\mathcal{S \circ R})^{-1}$ basta reverter os passos acima.
 
 
 ---

@@ -12,13 +12,9 @@ Definem-se as seguintes potências para uma [[MD - Relação sobre um conjunto|r
 - $\mathcal{R}^1=\mathcal{R}$
 - $\mathcal{R}^{n}= \mathcal{R}\circ \mathcal{R^{n-1}}$
 
-Em que $\circ$ denota a [[MD - Composição de Relações|composição]] de relaões e $\Delta=\{\;(x,x)\;|\;x \in X\;\}$ a [[MD - Relação de Igualdade|relação de igualdade]].
+Em que $\circ$ denota a [[MD - Composição de Relações|composição]] de relações e $\Delta=\{\;(x,x)\;|\;x \in X\;\}$ a [[MD - Relação de Igualdade|relação de igualdade]].
 
----
 
-### Propriedades
-
-- $(\mathcal{R}^n)^{-1} = (\mathcal{R}^{-1})^n$
 
 ---
 

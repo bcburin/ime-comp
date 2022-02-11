@@ -16,7 +16,7 @@ $$
 }
 $$
 
-Em que $\vee$ é o operador **OU** termo a termo.
+Em que $\vee$ é o operador **OR** termo a termo.
 
 ---
 
@@ -33,7 +33,7 @@ $$
 }
 $$
 
-Em que $\wedge$ é o operador **E** termo a termo.
+Em que $\wedge$ é o operador **AND** termo a termo.
 
 ---
 
