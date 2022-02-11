@@ -1,4 +1,7 @@
 # Relação Antissimétrica
+
+[[MD - Relação de Igualdade]]	[[MD - Relação de Ordem|NEXT]]	[[matematica-discreta|HOME]]
+
 ---
 
 ### Definição
@@ -6,6 +9,12 @@
 Uma [[MD - Relação sobre um conjunto|relação]] $\mathcal{R}$ sobre um conjunto $A$ é antissimétrica se e somente se para todo $a_{1},a_{2} \in A$, vale
 
 $$ a_{1}\;\mathcal{R}\;a_{2}\;\wedge\;a_{2}\;\mathcal{R}\;a_{1}\quad\implies \quad a_{1}= a_{2} $$
+
+---
+
+### Propriedades
+
+Seja $\mathcal{R}$ uma relação sobre $A$, então $R$ é antissimétrica se e somente se $\mathcal{R} \cap \mathcal{R}^{-1} \subseteq \Delta$. Em que $\Delta$ é a [[MD - Relação de Igualdade|relação de igualdade]].
 
 ---
 

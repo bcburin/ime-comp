@@ -1,4 +1,7 @@
 # Relação 1 para 1
+
+[[MD - Relação Funcional|PREV]]	[[MD - Relação Total à Esquerda|NEXT]]	[[matematica-discreta|HOME]]
+
 ---
 
 ### Definição

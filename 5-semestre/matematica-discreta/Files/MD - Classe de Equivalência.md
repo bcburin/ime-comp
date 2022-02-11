@@ -1,4 +1,7 @@
 # Classe de Equivalência
+
+[[MD - Relação de Equivalência|PREV]]	[[MD - Conjunto Quociente|NEXT]]	[[matematica-discreta|HOME]]
+
 ---
 
 ### Definição
@@ -7,12 +10,16 @@ Seja $\sim$ uma [[MD - Relação de Equivalência|relação de equivalência]] q
 
 $$ {[\,a\,] = \{ x \in X \;|\; x \sim a \} } $$
 
-**Exemplo**
+---
+
+### **Exemplo**
+
+*Seja a representação matricial de uma relação de equivalência $\mathcal{R}$ sobre um conjunto*
 
 $$
 \begin{pmatrix} 1 & 1 & 0  \\ 1 & 1 & 0  \\ 0 & 0 & 1 \end{pmatrix}
 $$
-*Nesse caso,*
+*Nesse caso, como $1 \;\mathcal{R}\;2$*
  - $[\,1\,]=[\,2\,]=\{1,2\}$
  - $[\,3\,] = \{3\}$
 

@@ -1,4 +1,5 @@
 {
-  "legacyEditor": false,
-  "alwaysUpdateLinks": true
+  "legacyEditor": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false
 }
