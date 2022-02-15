@@ -44,7 +44,7 @@ $$
 \end{align*}
 $$
 
-Disso, segue-se que $(\mathcal{R}^{-1})^* = (\mathcal{R}^*)^{-1}$
+Disso, segue-se que $(\mathcal{R}^{-1})^* = (\mathcal{R}^*)^{-1}$.
 
 ---
 

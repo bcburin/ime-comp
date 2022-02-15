@@ -15,6 +15,10 @@ Ou seja, $b \,\mathcal{R}^{-1} \,a \iff a \,\mathcal{R}\, b$.
 
 ### Propriedades
 
+Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $C$. Então
+
+- $(\mathcal{S \circ R})^{-1} = \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
+
 Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
 
 - $\mathcal{R} \subseteq \mathcal{S} \quad\implies \quad R^{-1} \subseteq S^{-1}$
@@ -23,10 +27,6 @@ Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
 
 - $(\mathcal{R}^n)^{-1} = (\mathcal{R}^{-1})^n$ para $n=0,1,2,3,\dots$
 
-
-Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $C$. Então
-
-- $(\mathcal{S \circ R})^{-1} = \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
 
 
 **Demonstração**
@@ -57,7 +57,7 @@ Seja $\mathcal{R}$ relação de $A$ em $B$ e $\mathcal{S}$ relação de $B$ em $
 		{(\mathcal{R}^{-1})}^{n+1} 
 	&= \mathcal{R}^{-1} \circ (\mathcal{R}^{-1})^n  \\
 	&= \mathcal{R}^{-1} \circ (\mathcal{R}^{n})^{-1}
-	= (\mathcal{R} \circ \mathcal{R}^n)^{-1} \\
+	= ( \mathcal{R}^n \circ \mathcal{R})^{-1} \\
 	&= (\mathcal{R}^{n+1})^{-1}
 	\end{align*}
   $$
