@@ -29,16 +29,26 @@ Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
 
 
 
-**Demonstração**
+**Demonstrações**
 
-1. Seja $\mathcal{R} \subseteq \mathcal{S}$. Provar $\mathcal{R^{-1}}\subseteq \mathcal{S}^{-1}$
+1. Provar $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
+	- Suponha $(c,a) \in (\mathcal{S \circ R})^{-1}$
+	- Então $(a,c) \in \mathcal{S \circ R}$
+	- Logo existe $b \in B$ tal que $(a,b) \in \mathcal{R}$ e $(b,c) \in \mathcal{S}$
+	- Isso equivale a $(c,b) \in \mathcal{S}^{-1}$ e $(b,a) \in \mathcal{R}^{-1}$
+	- O que implica $(c,a) \in \mathcal{R}^{-1} \circ \mathcal{S}^{-1}$
+	- Assim,  $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
+	
+	Para mostrar $\mathcal{R}^{-1}\circ \mathcal{S}^{-1} \subseteq (\mathcal{S \circ R})^{-1}$ basta reverter os passos acima.
+
+2. Seja $\mathcal{R} \subseteq \mathcal{S}$. Provar $\mathcal{R^{-1}}\subseteq \mathcal{S}^{-1}$
 	- Suponha $(b,a) \in \mathcal{R}^{-1}$
 	- Então $(a,b) \in \mathcal{R}$
 	- Como $\mathcal{R} \subseteq \mathcal{S}$, segue-se que $(a,b) \in \mathcal{S}$
 	- Logo $(b,a) \in \mathcal{S}^{-1}$
 	- Assim, $\mathcal{R^{-1}}\subseteq \mathcal{S}^{-1}$
 	
-2. Provar $(\mathcal{R} \cap \mathcal{S})^{-1} \subseteq \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$
+3. Provar $(\mathcal{R} \cap \mathcal{S})^{-1} \subseteq \mathcal{R}^{-1} \cap \mathcal{S}^{-1}$
     - Suponha $(b,a) \in (\mathcal{R} \cap \mathcal{S})^{-1}$
 	- Então $(a,b) \in \mathcal{R} \cap \mathcal{S}$
 	- Logo $(a,b) \in \mathcal{R} \text{ e } (a,b) \in \mathcal{S} \implies (b,a) \in \mathcal{R}^{-1} \text{ e } (b,a) \in \mathcal{S}^{-1}$
@@ -47,7 +57,7 @@ Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
    
    Para provar $\mathcal{R}^{-1} \cap \mathcal{S}^{-1} \subseteq (\mathcal{R} \cap \mathcal{S})^{-1}$ basta reverter os passos acima. De maneira análoga, prova-se a relação para a união.
  
-3. Prova por indução
+4. Prova por indução
 	- Caso inicial: para $n=0$, a relação se reduz a $\Delta^{-1} = \Delta$ (a [[MD - Relação de Igualdade|iguldade]] é simétrica).
 	- Hipótese indutiva: vale $(\mathcal{R}^{-1})^n = (\mathcal{R}^n)^{-1}$.
 	- Passo indutivo: 
@@ -61,18 +71,7 @@ Sejam $\mathcal{R}$ e $\mathcal{S}$ relações de $A$ em $B$. Então
 	&= (\mathcal{R}^{n+1})^{-1}
 	\end{align*}
   $$
-  O que completa a indução. Note que foi usada a distribuição da inversa sobre a composição, que será provada a seguir.
-  
- 
-4. Provar $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
-	- Suponha $(c,a) \in (\mathcal{S \circ R})^{-1}$
-	- Então $(a,c) \in \mathcal{S \circ R}$
-	- Logo existe $b \in B$ tal que $(a,b) \in \mathcal{R}$ e $(b,c) \in \mathcal{S}$
-	- Isso equivale a $(c,b) \in \mathcal{S}^{-1}$ e $(b,a) \in \mathcal{R}^{-1}$
-	- O que implica $(c,a) \in \mathcal{R}^{-1} \circ \mathcal{S}^{-1}$
-	- Assim,  $(\mathcal{S \circ R})^{-1} \subseteq \mathcal{R}^{-1}\circ \mathcal{S}^{-1}$
-	
-	Para mostrar $\mathcal{R}^{-1}\circ \mathcal{S}^{-1} \subseteq (\mathcal{S \circ R})^{-1}$ basta reverter os passos acima.
+  O que completa a indução.
 
 
 ---
