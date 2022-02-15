@@ -1,6 +1,9 @@
 # Obsidian
 .obsidian/
 
+# VS Code
+.vscode/
+
 # Prerequisites
 *.d
 
