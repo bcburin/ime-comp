@@ -37,6 +37,17 @@
 	- [[MD - Exercícios de Aula 1]]
 
 
+### Semi-grupos, Monóides e Grupos
+
+- [[MD - Operação Binária]]
+- [[MD - Associatividade]]
+- [[MD - Elemento Neutro]]
+- [[MD - Elemento Inverso]]
+- [[MD - Semi-grupo]]
+- [[MD - Monóide]]
+- [[MD - Grupo]]
+
+
 ---
 
 Tags: #mat-discreta 
