@@ -46,6 +46,7 @@
 - [[MD - Semi-grupo]]
 - [[MD - Monóide]]
 - [[MD - Grupo]]
+- [[MD - Sub-grupo]]
 
 
 ---
