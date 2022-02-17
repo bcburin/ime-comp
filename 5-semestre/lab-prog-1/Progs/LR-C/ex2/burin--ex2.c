@@ -5,11 +5,17 @@ void imprimir_pares(int max);
 void imprimir_par_recursivo(int par, int max);
 void imprimir_borda();
 
-int main() {
+int main(int argc, char *argv[]) {
   int n = 0;
 
-  printf("Insira um numero inteiro: ");
-  scanf("%d", &n);
+  // Verifiva se foi passado algum argumento na linha de comando
+  // Caso contrario, pede-o ao usuario
+  if (argc == 1) {
+    printf("Insira um numero inteiro: ");
+    scanf("%d", &n);
+  } else {
+    n = atoi(argv[1]);
+  }
 
   imprimir_pares(n);
 
