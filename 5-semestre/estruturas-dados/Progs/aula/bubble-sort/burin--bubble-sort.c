@@ -13,7 +13,7 @@ int main(int argc, char *argv[]) {
   if (argc == 1) {
     printf("\n-------------------------------------------------------------\n");
     printf("Insira os inteiros a serem ordenados na linha de comando\n");
-    printf("Exemplo: burin--bubble-sort 5 4 6 8 7 1\n");
+    printf("Exemplo: bubble-sort 5 4 6 8 7 1\n");
     printf("-------------------------------------------------------------\n");
     return 1;
   }
