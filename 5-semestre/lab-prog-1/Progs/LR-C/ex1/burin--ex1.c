@@ -3,18 +3,16 @@
 
 void imprimir_pares(int);
 void imprimir_borda();
+int imprimir_erro(char *name);
 
 int main(int argc, char *argv[]) {
   int n = 0;
 
   // Verifiva se foi passado algum argumento na linha de comando
-  // Caso contrario, pede-o ao usuario
-  if (argc == 1) {
-    printf("Insira um numero inteiro: ");
-    scanf("%d", &n);
-  } else {
-    n = atoi(argv[1]);
-  }
+  if (argc != 2)
+    return imprimir_erro(argv[0]);
+    
+  n = atoi(argv[1]);
 
   imprimir_pares(n);
 
@@ -31,4 +29,17 @@ void imprimir_pares(int n) {
 
 void imprimir_borda() {
   printf("\n----------------\n");
+}
+
+int imprimir_erro(char *name) {
+  // Retirar o diretorio do nome do executavel
+  for(char *trav = name; *trav != 0; ++trav)
+    if (*trav == '\\' || *trav == '/') name = trav+1;
+
+  // Imprimir erro com base no nome do executavel
+  printf("\n----------------------------------------------------------------------------------\n");
+  printf("Insira na linha de comando a cota superior dos numeros pares a serem impressos\n");
+  printf("Exemplo: %s 25\n", name);
+  printf("----------------------------------------------------------------------------------\n");
+  return 1;
 }

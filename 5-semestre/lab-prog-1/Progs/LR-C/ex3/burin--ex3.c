@@ -4,25 +4,24 @@
 int main() {
   FILE *fp;
 
-  fp = fopen("temp/file.txt", "r");
+  fp = fopen("file.txt", "r");
   if(!fp)
     exit(EXIT_FAILURE);
 
-  int soma = 0;
+  int sum = 0;
   int prod = 1;
-  while(!feof(fp)) {
-    char *s = gets(fp);
 
-    if( s == "\n" ) continue;
+  int num = 0;
 
-    int n = atoi(s);
-
-    if (n%2 == 0) prod *= n;
-    else soma += n;
+  while( fscanf(fp, "%d ", &num) != EOF) {
+    if (num%2 == 0) prod *= num;
+    if (num%2 == 1) sum += num;
   }
 
   fclose(fp);
 
-  printf("Produtorio dos numeros pares: %d\n", prod);
-  printf("Somatorio dos numeros impares: %d\n", soma);
+  printf("\nProdutorio dos numeros pares: %d\n", prod);
+  printf("Somatorio dos numeros impares: %d\n", sum);
+
+  return 0;
 }
