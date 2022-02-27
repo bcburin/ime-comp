@@ -41,13 +41,20 @@
 
 - [[MD - Operação Binária]]
 - [[MD - Associatividade]]
+- [[MD - Comutatividade]]
 - [[MD - Elemento Neutro]]
 - [[MD - Elemento Inverso]]
 - [[MD - Semi-grupo]]
 - [[MD - Monóide]]
 - [[MD - Grupo]]
+- [[MD - Grupo Abeliano]]
 - [[MD - Sub-grupo]]
-
+- [[MD - Lei do Corte]]	
+- [[MD - Homomorfismo]]
+- [[MD - Núcleo de Homomorfismo]]
+- [[MD - Imagem de Homomorfismo]]
+- [[MD - Isomorfismo]]
+- [[MD - Grupos Cíclicos]]
 
 ---
 
