@@ -1,0 +1,230 @@
+#include "List.h"
+#include <stdio.h>
+
+
+void _list_attach_nodes(Node *node1, Node *node2) {
+  node1->next = node2;
+  node2->prev = node1;
+}
+
+
+void _list_detach_nodes(Node *node1, Node *node2) {
+  node1->next = NULL;
+  node2->prev = NULL;
+}
+
+void _list_remove_node(Node *node) {
+  Node *prev = node->prev;
+  Node *next = node->next;
+  if(prev)
+    _list_detach_nodes(prev, node);
+  if(next)
+    _list_detach_nodes(node, next);
+  if(prev && next)
+    _list_attach_nodes(prev,next);
+}
+
+
+Node* _list_create_node(void *data) {
+  Node *node = (Node*) malloc(sizeof(Node)); 
+  node->data = data;
+  node->prev = NULL;
+  node->next = NULL;
+  return node;
+}
+
+List* list_create(void (*destroy)(void *data)) {
+  List *list = malloc(sizeof(List));
+  list->head = NULL;
+  list->tail = NULL;
+  list->size = 0;
+  list->destroy = destroy;
+  return list;
+}
+
+
+void list_destroy(List *list) {
+  for (Node *cur = list->head; cur; cur = cur->next) {
+    if (list->destroy) list->destroy(cur->data);
+    free(cur);
+  }
+}
+
+
+void list_push(List *list, void *data) {
+  Node *node = _list_create_node(data);
+
+  if (list->size == 0) {
+    list->head = node;
+    list->tail = node;
+    list->size++;
+    return;
+  }
+
+  _list_attach_nodes(list->tail, node);
+  
+  list->tail = node;
+  list->size++;
+
+}
+
+
+void* list_pop(List *list) {
+  if(list->size == 0) return NULL;
+
+  Node *node = list->tail;
+  void *data = node->data;
+
+  list->tail = node->prev;
+  list->size--;
+
+  _list_detach_nodes(list->tail, node);
+
+  free(node);
+
+  return data;
+}
+
+void list_unshift(List *list, void *data) {
+  if (list->size == 0) {
+    list_push(list, data);
+    return;
+  }
+
+  Node *node = _list_create_node(data);
+  
+  _list_attach_nodes(node,list->head);
+
+  list->head = node;
+}
+
+
+void* list_shift(List *list) {
+  if(list->size == 0) return NULL;
+
+  Node *node = list->head;
+  void *data = node->data;
+
+  list->head = node->next;
+  list->size--;
+
+  _list_detach_nodes(node, list->head);
+
+  free(node);
+
+  return data;
+}
+
+
+
+void list_insert(List *list, void *data, int index) {
+  if (index < 0 || index > list->size) return;
+
+  // Caso: adicao no comeco da lista
+  if (index == 0) {
+    list_unshift(list, data);
+  }
+
+  // Caso: adicao no fim da lista
+  if (index == list->size) {
+    list_push(list, data);
+    return;
+  }
+
+  Node *node = _list_create_node(data);
+
+  // Otimizacao: comecar travessia do extremo mais proximo
+  if(index < list->size/2) {
+    int i = 0;
+    for (Node *cur = list->head; cur; cur = cur->next )
+      if (++i == index) {
+        Node *next = cur->next;
+        _list_attach_nodes(cur,node);
+        _list_attach_nodes(node,next);
+      }
+  } else {
+    int i = list->size;
+    for (Node *cur = list->tail; cur; cur = cur->prev )
+      if(--i == index) {
+        Node *prev = cur->prev;
+        _list_attach_nodes(prev,node);
+        _list_attach_nodes(node,cur);
+      }
+  }
+
+  list->size++;
+}
+
+
+void* list_retrieve(List *list, int index) {
+  if (index < 0 || index > list->size - 1) return NULL;
+
+  // Caso: remocao no comeco da lista
+  if (index == 0) return list_shift(list);
+
+  // Caso: remocao no fim da lista
+  if (index == list->size-1) list_pop(list);
+
+
+  // Otimizacao: comecar travessia do extremo mais proximo
+  void *data;
+  if(index < list->size/2) {
+    int i = 0;
+    for (Node *cur = list->head; cur; cur = cur->next )
+      if (i++ == index) {
+        data = cur->data;
+        _list_remove_node(cur);
+        break;
+      }
+  } else {
+    int i = list->size-1;
+    for (Node *cur = list->tail; cur; cur = cur->prev )
+      if(i-- == index) {
+        data = cur->data;
+        _list_remove_node(cur);
+        break;
+      }
+  }
+
+  list->size--;
+
+  return data;
+}
+
+
+void list_remove(List *list, int index) {
+  void *data = list_retrieve(list, index);
+  if(list->destroy) list->destroy(data);
+}
+
+
+void* list_index(List *list, int index) {
+  if (index < 0 || index > list->size-1 ) return NULL;
+
+  if (index == list->size-1) return list->tail;
+
+  // Otimizacao: comecar travessia do extremo mais proximo
+  if(index < list->size/2) {
+    int i = 0;
+    for (Node *cur = list->head; cur; cur = cur->next )
+      if (i++ == index)  return cur->data;
+  } else {
+    int i = list->size-1;
+    for (Node *cur = list->tail; cur; cur = cur->prev )
+      if(i-- == index) return cur->data;
+  }
+}
+
+
+void* list_search(List *list, int (*condition)(void *data)) {
+  for (Node *cur = list->head; cur; cur = cur->next) {
+    if ( condition(cur->data) ) return cur->data;
+  }
+  return NULL;
+}
+
+
+void list_apply(List *list, void (*applyf)(void *data)) {
+  for (Node *cur = list->head; cur; cur = cur->next)
+    applyf(cur->data);
+}
