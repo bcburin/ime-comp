@@ -20,7 +20,12 @@
 	- [[TL - Sinais determinísticos e sinais aleatórios|Sinais determinísticos e sinais aleatórios]]
 - [[TL - Energia de um sinal|Energia de um sinal]]
 - [[TL - Potência de um sinal|Energia de um sinal]]
-- [[TL - Representação do sinal por série de Fourier|Representação do sinal por série de Fourier]]
+- **Série de Fourier**
+	- [[TL - Representação do sinal por série de Fourier|Representação do sinal por série de Fourier]]
+	- [[TL - Série de Fourier em Aplitudes e Fases|Série de Fourier em Aplitudes e Fases]]
+	- [[TL - Espectros de Amplitude e Fase|Espectros de Amplitude e Fase]]
+	- [[TL - Série de Fourier Exponencial|Série de Fourier Exponencial]]
+- **Transformadas de Fourier**
 
 ---
 

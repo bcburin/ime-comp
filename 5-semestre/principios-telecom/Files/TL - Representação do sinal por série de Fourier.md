@@ -39,31 +39,21 @@ a_n = \frac{2}{T} \int_{-T/2}^{T/2}g(t)\sin(2\pi n f t)\,\mathrm{d}t
 \end{align*}
 $$
 
----
-
-### Representação equivalente
-
-De forma equivalente, $g(t)$ pode ser representada pela seguinte série
-
-$$
-\boxed{
-g(t) = c_0 + \sum_{n=1}^\infty  c_n \,\cos(2\pi n f t\,+\,\theta_n) 
-}
-$$
-
-com
-
-$$
-c_0 = a_0 \quad\quad\quad c_n = \sqrt{a_n^2+b_n^2} \quad\quad\quad \theta_n = - \tan^{-1}\left({\frac{b_n}{a_n}}\right)
-$$
 
 ---
 
-### Espectros de amplitude e de fase
+### Transformadas de Fourier Direta e Inversa
 
-- O **espectro de amplitude** é o gráfico $c_n \times f$, em que $f$ assume os valores $nf$ das frequências das cossenóides que compõe o sinal. 
+- Equação de análise
+$$
+G(f) = \int_{-infty}^{\infty} g(t) e ^ {-j2\pi f t}\,\mathrm{d}t
+$$
 
-- Similarmente, o **espectro de fase** é o gráfico $\theta_n \times f$.
+- Equação de síntese
+
+$$
+g(t) = \int_{-infty}^\infty G(f)e^{j2\pi f t} \,\mathrm{d}t
+$$
 
 ---
 
