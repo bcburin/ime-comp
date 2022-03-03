@@ -25,7 +25,22 @@
 	- [[TL - Série de Fourier em Aplitudes e Fases|Série de Fourier em Aplitudes e Fases]]
 	- [[TL - Espectros de Amplitude e Fase|Espectros de Amplitude e Fase]]
 	- [[TL - Série de Fourier Exponencial|Série de Fourier Exponencial]]
+	- [[TL - Sinais Reais e Representação Exponencial|Sinais Reais e Representação Exponencial]]
 - **Transformadas de Fourier**
+	- [[TL - Transformada de Fourier|Transformada de Fourier]]
+	- **Propriedades**
+		- [[TL - TF Linearidade|Linearidade]]	
+		- [[TL - TF Alteração de Escala|Alteração de Escala]]
+		- [[TL - TF Conjugação|Conjugação]]
+		- [[TL - TF Dualidade|Dualidade]]
+		- [[TL - TF Deslocamento no Tempo|Deslocamento no Tempo]]
+		- [[TL - TF Deslocamento na Frequência|Deslocamento na Frequência]]
+		- [[TL - TF Convolução|Convolução]]
+		- [[TL - TF Diferenciação|Diferenciação]]
+		- [[TL - TF Integração|Integração]]
+		- [[TL - Teorema de Parseval|Teorema de Parseval]]
+	- [[TL - Delta de Dirac|Delta de Dirac]]
+	- [[TL - TF de Sinais Periódicos|Transformada de Fourier de Sinais Periódicos]]
 
 ---
 

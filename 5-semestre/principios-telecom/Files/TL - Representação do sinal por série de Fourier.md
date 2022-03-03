@@ -39,22 +39,6 @@ a_n = \frac{2}{T} \int_{-T/2}^{T/2}g(t)\sin(2\pi n f t)\,\mathrm{d}t
 \end{align*}
 $$
 
-
----
-
-### Transformadas de Fourier Direta e Inversa
-
-- Equação de análise
-$$
-G(f) = \int_{-infty}^{\infty} g(t) e ^ {-j2\pi f t}\,\mathrm{d}t
-$$
-
-- Equação de síntese
-
-$$
-g(t) = \int_{-infty}^\infty G(f)e^{j2\pi f t} \,\mathrm{d}t
-$$
-
 ---
 
 Tags: #principios-telecom 
