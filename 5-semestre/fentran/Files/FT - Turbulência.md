@@ -17,7 +17,7 @@ O [[FT - Número de Reynolds|Número de Reynolds]] pode ser usado para determina
 
 $Re$ | Classificação
 ---- | --------------
-$Re < 2300$ | Turbulento
+$Re < 2300$ | Laminar
 $2300 < Re < 4000$ | Transição
 $4000 > Re$ | Turbulento
 
