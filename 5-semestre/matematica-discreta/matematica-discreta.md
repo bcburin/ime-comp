@@ -44,17 +44,41 @@
 - [[MD - Comutatividade]]
 - [[MD - Elemento Neutro]]
 - [[MD - Elemento Inverso]]
-- [[MD - Semi-grupo]]
-- [[MD - Monóide]]
-- [[MD - Grupo]]
-- [[MD - Grupo Abeliano]]
-- [[MD - Sub-grupo]]
-- [[MD - Lei do Corte]]	
-- [[MD - Homomorfismo]]
-- [[MD - Núcleo de Homomorfismo]]
-- [[MD - Imagem de Homomorfismo]]
-- [[MD - Isomorfismo]]
-- [[MD - Grupos Cíclicos]]
+
+##### Grupos
+
+- **Definições**
+	- [[MD - Semi-grupo]]
+	- [[MD - Monóide]]
+	- [[MD - Grupo]]
+	- [[MD - Grupo Abeliano]]
+	- [[MD - Grupo Cíclico]]
+	- [[MD - Potências de Elemento de um Grupo]]
+- **Resultados**
+	- [[MD - Lei do Corte]]	
+	- [[MD - Potência de Elemento de Grupo Cíclico Finito]]
+
+
+##### Subgrupos
+
+- **Definições**
+	- [[MD - Subgrupo]]
+	- [[MD - Subgrupo gerado por um Elemento]]	
+- **Resultados**
+	- [[MD - Condição Necessária e Suficiente para ser Subgrupo]]
+	- [[MD - Condição Necessária e Suficiente para ser Subgrupo Finito]]
+	- [[MD - Subgrupos de Grupos Cíclicos]]
+
+##### Homomorfismos
+
+- **Definições**
+	- [[MD - Homomorfismo]]
+	- [[MD - Núcleo de Homomorfismo]]
+	- [[MD - Imagem de Homomorfismo]]
+	- [[MD - Isomorfismo]]
+- **Resultados**
+	- [[MD - Imagem Homomórfica do Elemento Neutro]]
+	- [[MD - Imagem Homomórfica do Elemento Inverso]]
 
 ---
 
