@@ -48,7 +48,7 @@
 ##### Grupos
 
 - **Definições**
-	- [[MD - Semi-grupo]]
+	- [[MD - Semigrupo]]
 	- [[MD - Monóide]]
 	- [[MD - Grupo]]
 	- [[MD - Grupo Abeliano]]
@@ -57,7 +57,7 @@
 - **Resultados**
 	- [[MD - Lei do Corte]]	
 	- [[MD - Potência de Elemento de Grupo Cíclico Finito]]
-
+	- [[MD - Condição Necessária e Suficiente para ser Grupo]]
 
 ##### Subgrupos
 

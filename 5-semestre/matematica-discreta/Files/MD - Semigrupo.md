@@ -1,4 +1,4 @@
-# Semi-grupo
+# Semigrupo
 
 ---
 
