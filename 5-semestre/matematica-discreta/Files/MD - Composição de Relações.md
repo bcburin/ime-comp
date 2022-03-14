@@ -6,7 +6,7 @@
 
 ### Definição
 
-Dadas as [[MD - Relação Binária|relações]] $\mathbf{R}=(A,B,\mathcal{R})$ e $\mathbf{S}=(B,C,\mathcal{S})$ , define-se a composição das relações $\mathbf{S} \circ \mathbf{R} = (A,C,\mathcal{S} \circ \mathcal{R})$ com $\mathcal{S}\circ \mathcal{R} \in A \times C$, sendo que
+Dadas as [[MD - Relação Binária|relações]] $\mathbf{R}=(A,B,\mathcal{R})$ e $\mathbf{S}=(B,C,\mathcal{S})$ , define-se a composição das relações $\mathbf{S} \circ \mathbf{R} = (A,C,\mathcal{S} \circ \mathcal{R})$ com $\mathcal{S}\circ \mathcal{R} \subset A \times C$, sendo que
 
 $$
 \boxed{

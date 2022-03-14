@@ -1,4 +1,4 @@
-# Sub-grupo
+# Subgrupo
 ---
 
 ### Definição
