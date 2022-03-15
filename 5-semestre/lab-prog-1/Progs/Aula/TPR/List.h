@@ -26,7 +26,7 @@ void _list_attach_nodes(Node *node1, Node *node2);
 
 void _list_detach_nodes(Node *node1, Node *node2);
 
-void _list_remove_node(Node *node);
+void _list_remove_node(List *list, Node *node);
 
 Node* _list_create_node(void *data);
 
@@ -69,6 +69,21 @@ void* lsit_shift(List *list);                // Retira primeiro elemento e o ret
 void* list_retrieve(List *list, int index);  // Retira o elemento na posicao index e o retorna
 
 void list_remove(List *list, int index);     // Reira elemento da posicao index e o destroi (libera memoria)
+
+/* - Remove primeiro item satisfazendo certa condicao e o retorna
+ *    - O primeiro argumento da condicao eh o valor contido no item da lista
+ *    - O segundo argumento eh uma chave que pode ser utilizada para procurar o item
+ * - A chave de procura deve ser fornecida
+ */
+void* list_retrieve_first(List *list, int (*condition)(void *data, void *key), void *key);
+
+/* - Remove primeiro item satisfazendo certa condicao e o destroi (libera memoria)
+ *    - O primeiro argumento da condicao eh o valor contido no item da lista
+ *    - O segundo argumento eh uma chave que pode ser utilizada para procurar o item
+ * - A chave de procura deve ser fornecida
+ * - Retorna 0 se a remocao ocorrer com sucesso, 1 caso contrario
+ */
+int list_remove_first(List *list, int (*condition)(void *data, void *key), void *key); 
 
 
 /* FUNCOES DE BUSCA */

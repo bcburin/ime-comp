@@ -14,7 +14,7 @@ int _aluno_validar_cpf(const char *cpf) {
 }
 
 
-int _aluno_cadastrar_nome(char *nome) {
+char* _aluno_cadastrar_nome() {
   char buffer[50];
 
   printf("\nInsira o nome do aluno: ");
@@ -24,15 +24,15 @@ int _aluno_cadastrar_nome(char *nome) {
 
   // TODO: validar nome
 
-  nome = (char*) malloc( (strlen(buffer) + 1) * sizeof(char));
+  char *nome = (char*) malloc( (strlen(buffer) + 1) * sizeof(char));
 
   strcpy(nome, buffer);
 
-  return 0;
+  return nome;
 }
 
 
-int _aluno_cadastrar_codigo(char *codigo) {
+char* _aluno_cadastrar_codigo() {
   char buffer[20];
 
   printf("\nInsira o codigo do aluno: ");
@@ -41,18 +41,17 @@ int _aluno_cadastrar_codigo(char *codigo) {
   scanf("%s", buffer);
 
   int erro = _aluno_validar_codigo(buffer);
+  if (erro) return NULL;
 
-  if (erro) return erro;
-
-  codigo = (char*) malloc( CODIGO_SIZE * sizeof(char));
+  char *codigo = (char*) malloc( CODIGO_SIZE * sizeof(char));
 
   strcpy(codigo, buffer);
 
-  return 0;
+  return codigo;
 }
 
 
-int _aluno_cadastrar_cpf(char *cpf) {
+char* _aluno_cadastrar_cpf() {
   char buffer[20];
 
   printf("\nInsira o CPF do aluno (sem pontos e tracos): ");
@@ -62,29 +61,50 @@ int _aluno_cadastrar_cpf(char *cpf) {
 
   int erro = _aluno_validar_cpf(buffer);
 
-  if(erro) return erro;
+  if(erro) return NULL;
 
-  cpf = (char*) malloc( CPF_SIZE * sizeof(char));
+  char *cpf = (char*) malloc( CPF_SIZE * sizeof(char));
 
   strcpy(cpf, buffer);
+
+  return cpf;
 }
 
 
 int cadastrar_aluno(List *alunos) {
   Aluno *aluno = (Aluno*) malloc(sizeof(Aluno)); 
 
-  int erro = 0;
+  imprimir_borda();
 
-  erro = _aluno_cadastrar_nome(aluno->nome);
-  if(erro) return erro;
+  aluno->nome = _aluno_cadastrar_nome();
+  // if(!aluno->nome) return NOME_INVALIDO;
 
-  erro = _aluno_cadastrar_codigo(aluno->codigo);
-  if(erro) return erro;
+  aluno->codigo = _aluno_cadastrar_codigo();
+  if(!aluno->codigo) return CODIGO_INVALIDO;
   
-  erro = _aluno_cadastrar_cpf(aluno->cpf);
-  if(erro) return erro;
+  aluno->cpf = _aluno_cadastrar_cpf();
+  if(!aluno->cpf) return CPF_INVALIDO;
   
   list_push(alunos, aluno);
+
+  return 0;
+}
+
+
+int remover_aluno(List *alunos) {
+  imprimir_borda();
+  printf("\nInsira o codigo do aluno a ser removido: ");
+
+  char codigo[20];
+  scanf("%s", codigo);
+
+  int erro;
+
+  erro = _aluno_validar_codigo(codigo);
+  if(erro) return erro;
+
+  if( list_remove_first(alunos,procurar_aluno_por_codigo,codigo))
+   return ALUNO_NAO_ENCONTRADO;
 
   return 0;
 }

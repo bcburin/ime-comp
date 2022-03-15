@@ -16,6 +16,16 @@ void imprimir_aluno(void *aluno) {
 }
 
 
+int procurar_aluno_por_codigo(void *aluno, void *codigo) {
+  char *codigo_aluno = ((Aluno*)aluno)->codigo;
+
+  if(strcmp(codigo_aluno, codigo) == 0) 
+    return 1;
+
+  return 0;
+}
+
+
 void fwrite_aluno(FILE *fp, void* aluno) { 
   char *nome = ((Aluno*)aluno)->nome;
   char *codigo = ((Aluno*)aluno)->codigo;

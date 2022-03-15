@@ -12,15 +12,26 @@ void _list_detach_nodes(Node *node1, Node *node2) {
   node2->prev = NULL;
 }
 
-void _list_remove_node(Node *node) {
+void _list_remove_node(List *list, Node *node) {
   Node *prev = node->prev;
   Node *next = node->next;
+
+  // Realocar inicio/fim da lista
+  if(list->head == node) list->head = node->next;
+  if(list->tail == node) list->tail = node->prev;
+
+
+  // Desfazer ligacoes antigas e criar a nova
   if(prev)
     _list_detach_nodes(prev, node);
   if(next)
     _list_detach_nodes(node, next);
   if(prev && next)
     _list_attach_nodes(prev,next);
+
+  // Desalocar memoria para o no (mas nao os dados contidos nele!)
+  free(node);
+
 }
 
 
@@ -167,7 +178,7 @@ void* list_retrieve(List *list, int index) {
   if (index == 0) return list_shift(list);
 
   // Caso: remocao no fim da lista
-  if (index == list->size-1) list_pop(list);
+  if (index == list->size-1) return list_pop(list);
 
 
   // Otimizacao: comecar travessia do extremo mais proximo
@@ -177,7 +188,7 @@ void* list_retrieve(List *list, int index) {
     for (Node *cur = list->head; cur; cur = cur->next )
       if (i++ == index) {
         data = cur->data;
-        _list_remove_node(cur);
+        _list_remove_node(list, cur);
         break;
       }
   } else {
@@ -185,7 +196,7 @@ void* list_retrieve(List *list, int index) {
     for (Node *cur = list->tail; cur; cur = cur->prev )
       if(i-- == index) {
         data = cur->data;
-        _list_remove_node(cur);
+        _list_remove_node(list, cur);
         break;
       }
   }
@@ -198,7 +209,33 @@ void* list_retrieve(List *list, int index) {
 
 void list_remove(List *list, int index) {
   void *data = list_retrieve(list, index);
-  if(list->destroy) list->destroy(data);
+  if(list->destroy && data) list->destroy(data);
+}
+
+
+void* list_retrieve_first(List *list, int (*condition)(void *data, void *key), void *key) {
+  for (Node *curr = list->head; curr; curr = curr->next) {
+    if(condition(curr->data, key)) {
+      void *data = curr->data;
+      _list_remove_node(list, curr);
+      list->size--;
+      return data;
+    }
+  }
+
+  // Caso nao seja encontrado nenhum elemento satisfazendo a condicao fornecida
+  return NULL;
+} 
+
+
+int list_remove_first(List *list, int (*condition)(void *data, void *key), void *key) {
+  void *data = list_retrieve_first(list, condition, key);
+
+  if(!data) return 1;
+  
+  if(list->destroy && data) list->destroy(data);
+  
+  return 0;
 }
 
 
@@ -230,7 +267,6 @@ void* list_search(List *list, int (*condition)(void *data)) {
 
 void list_apply(List *list, void (*applyf)(void *data)) {
   for (Node *cur = list->head; cur; cur = cur->next) {
-    printf("aplicado\n");
     applyf(cur->data);
   }
 }
@@ -244,10 +280,15 @@ void list_save(List *list, char *filename, void (*write)(FILE *fp, void *data)) 
     return;
   }
 
+
   fwrite(&list->size, sizeof(int), 1, fp);
 
-  for( Node *curr = list->head; curr; curr = curr->next) 
+  for( Node *curr = list->head; curr; curr = curr->next) {
+    if(curr == NULL) {
+      printf("\nNULL Node!\n");
+    }
     write(fp, curr->data);
+  }
 
   fclose(fp);
 }
