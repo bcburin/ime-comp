@@ -1,5 +1,4 @@
 #include "List.h"
-#include <stdio.h>
 
 
 void _list_attach_nodes(Node *node1, Node *node2) {
@@ -44,9 +43,14 @@ List* list_create(void (*destroy)(void *data)) {
 
 
 void list_destroy(List *list) {
-  for (Node *cur = list->head; cur; cur = cur->next) {
-    if (list->destroy) list->destroy(cur->data);
-    free(cur);
+  Node *curr = list->head;
+  Node *next = list->head;
+
+  while(curr) {
+    if (list->destroy) list->destroy(curr->data);
+    next = curr->next;
+    free(curr);
+    curr = next;
   }
 }
 
@@ -225,6 +229,51 @@ void* list_search(List *list, int (*condition)(void *data)) {
 
 
 void list_apply(List *list, void (*applyf)(void *data)) {
-  for (Node *cur = list->head; cur; cur = cur->next)
+  for (Node *cur = list->head; cur; cur = cur->next) {
+    printf("aplicado\n");
     applyf(cur->data);
+  }
+}
+
+
+void list_save(List *list, char *filename, void (*write)(FILE *fp, void *data)) {
+  FILE *fp = fopen(filename, "wb");
+
+  if(!fp) {
+    printf("Failed to open file %s", filename);
+    return;
+  }
+
+  fwrite(&list->size, sizeof(int), 1, fp);
+
+  for( Node *curr = list->head; curr; curr = curr->next) 
+    write(fp, curr->data);
+
+  fclose(fp);
+}
+
+List* list_load(char *filename, void* (*read)(FILE *fp), void (*destroy)(void *data)) {
+  FILE* fp = fopen(filename, "rb");
+
+  if(!fp) {
+    printf("-- Failed to open file %s --\n", filename);
+    printf("-- Returning empty list... --\n");
+    return list_create(destroy);
+  }
+
+  int size = 0;
+  
+  fread(&size, sizeof(int), 1, fp);
+
+
+  List *list = list_create(destroy);
+
+  for(int i = 0; i != size; ++i) {
+    void *data = read(fp);
+    list_push(list, data);
+  }
+
+  fclose(fp);
+
+  return list;
 }

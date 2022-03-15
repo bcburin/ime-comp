@@ -3,6 +3,7 @@
 #define LIST_H
 
 #include <stdlib.h>
+#include <stdio.h>
 
 typedef struct Node_ {
   void *data;
@@ -89,5 +90,24 @@ void* list_search(List *list, int (*condition)(void *data));
  */
 void list_apply(List *list, void (*applyf)(void *data));
 
+
+/* FUNCOES DE MANIPULACAO DE ARQUIVOS */
+
+/* - Salva lista no caminho especificado
+ * - NAO otimizada: mesmo que apenas algumas entradas tenham sido adicionadas
+ *   ou alteradas, o arquivo sera reescrito por completo
+ * - Requer funcao que implemente a escrita no arquivo
+ * - OBS: escrita binaria
+ */
+void list_save(List *list, char *filename, void (*write)(FILE *fp, void *data));
+
+/* - Carrega lista contida no caminho especificado
+ * - Requer funcao que implemente a leitura do arquivo e retorne um ponteiro void* para os dados alocados
+ * - Requer a funcao que libera a memoria dos dados alocados
+ *    - Se forem dados primitivos, usar free
+ *    - Se a lista nao tiver permissao para deletar dados, usar NULL
+ * - OBS: leitura binaria
+ */
+List* list_load(char *filename, void* (*read)(FILE *fp), void (*destroy)(void *data));
 
 #endif
