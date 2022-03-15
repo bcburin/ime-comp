@@ -1,17 +1,15 @@
 #include "Lista_Alunos.h"
 #include <string.h>
 
-enum 
-
 // TODO: verificar se todos os caracters sao digitos
 int _aluno_validar_codigo(const char *codigo) {
-  if (strlen(codigo) != 5) return -1;
+  if (strlen(codigo) != 5) return CODIGO_INVALIDO;
   return 0;
 }
 
 // TODO: verificar se todos os caracters sao digitos
 int _aluno_validar_cpf(const char *cpf) {
-  if (strlen(cpf) != 11) return -2;
+  if (strlen(cpf) != 11) return CPF_INVALIDO;
   return 0;
 }
 

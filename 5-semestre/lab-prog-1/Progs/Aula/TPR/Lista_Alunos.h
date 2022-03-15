@@ -4,7 +4,10 @@
 #include "List.h"
 #include "Aluno.h"
 
-typedef enum
+typedef enum {
+  CODIGO_INVALIDO = 1,
+  CPF_INVALIDO
+} ERRO_REGISTRO_ALUNO;
 
 /* FUNCOES PRIVADAS */
 

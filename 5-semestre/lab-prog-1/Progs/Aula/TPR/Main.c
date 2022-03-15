@@ -27,12 +27,12 @@ int main() {
   printf("\nOpcao desejada: ");
   scanf("%d", &op);
 
-  int res;
+  int erro;
   switch(op) {
     case CADASTRAR_ALUNO:
-      res = cadastrar_aluno(alunos);
-      if (res == -1) printf("\nCodigo invalido!\n");
-      if (res == -2) printf("\nCPF invalido!\n");
+      erro = cadastrar_aluno(alunos);
+      if (erro == CODIGO_INVALIDO) printf("\nCodigo invalido!\n");
+      if (erro == CPF_INVALIDO) printf("\nCPF invalido!\n");
       break;
     case REMOVER_ALUNO:
       printf("ra");
