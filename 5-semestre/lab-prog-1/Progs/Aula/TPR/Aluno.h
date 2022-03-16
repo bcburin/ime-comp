@@ -31,6 +31,16 @@ void imprimir_aluno(void *aluno);
  */
 int procurar_aluno_por_codigo(void *aluno, void *codigo);
 
+/* - Recebe como parametros um ponteiro para o aluno, alem de uma string (nome)
+ * - Retorna 1 se o nome do aluno contem a string fornecida, 0 caso contrario
+ */
+int procurar_aluno_por_nome(void *aluno, void *nome);
+
+/* - Recebe como parametros um ponteiro para o aluno, alem de uma string (cpf)
+ * - Retorna 1 se o aluno tem o cpf em questao, 0 caso contrario
+ */
+int procurar_aluno_por_cpf(void *aluno, void *cpf);
+
 
 /* MANIPULACAO DE ARQUIVOS */
 

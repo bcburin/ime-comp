@@ -12,18 +12,32 @@ void destruir_aluno(void *aluno) {
 void imprimir_aluno(void *aluno) {
   printf("\nALUNO: %s\n", ((Aluno*)aluno)->nome);
   printf("CODIGO: %s\n", ((Aluno*)aluno)->codigo);
-  printf("CPF: %s\n\n", ((Aluno*)aluno)->cpf);
+  printf("CPF: %s\n", ((Aluno*)aluno)->cpf);
 }
 
 
 int procurar_aluno_por_codigo(void *aluno, void *codigo) {
   char *codigo_aluno = ((Aluno*)aluno)->codigo;
 
-  if(strcmp(codigo_aluno, codigo) == 0) 
-    return 1;
-
-  return 0;
+  // OBS: a funcao strcmp retorna zero se e so se seus parametros forem iguais
+  return strcmp(codigo_aluno, codigo) == 0;
 }
+
+
+int procurar_aluno_por_nome(void *aluno, void *nome) {
+  char *aluno_nome = ((Aluno*)aluno)->nome;
+
+  return strstr(aluno_nome, (char*) nome) != NULL; 
+}
+
+
+int procurar_aluno_por_cpf(void *aluno, void *cpf) {
+  char *cpf_aluno = ((Aluno*)aluno)->cpf;
+
+  // OBS: a funcao strcmp retorna zero se e so se seus parametros forem iguais
+  return strcmp(cpf_aluno, cpf) == 0;
+}
+
 
 
 void fwrite_aluno(FILE *fp, void* aluno) { 

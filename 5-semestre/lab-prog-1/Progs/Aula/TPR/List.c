@@ -257,9 +257,9 @@ void* list_index(List *list, int index) {
 }
 
 
-void* list_search(List *list, int (*condition)(void *data)) {
+void* list_search(List *list, int (*condition)(void *data, void *key), void *key) {
   for (Node *cur = list->head; cur; cur = cur->next) {
-    if ( condition(cur->data) ) return cur->data;
+    if ( condition(cur->data, key) ) return cur->data;
   }
   return NULL;
 }

@@ -8,4 +8,9 @@
 void imprimir_borda();
 
 
+/* INTERACAO COM USUARIO */
+
+void pressione_para_continuar();
+
+
 #endif

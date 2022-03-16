@@ -10,6 +10,7 @@
 typedef enum {CADASTRAR_ALUNO = 1, REMOVER_ALUNO, 
               CADASTRAR_DISCIPLINA, REMOVER_DISCIPLINA,
               MOSTRAR_ALUNOS, MOSTRAR_DISCIPLINAS,
+              CONSULTAR_ALUNO, CONSULTAR_DISCIPLINA,
               SAIR
               } Opcao;
 
@@ -41,6 +42,7 @@ int main() {
       case REMOVER_ALUNO:
         erro = remover_aluno(alunos);
         if (erro == CODIGO_INVALIDO) printf("\nCodigo invalido!\n");
+        if (erro == CPF_INVALIDO) printf("\nCPF invalido!\n");
         if (erro == ALUNO_NAO_ENCONTRADO) printf("\nAluno nao encontrado!\n");
         break;
       case CADASTRAR_DISCIPLINA:
@@ -51,9 +53,20 @@ int main() {
         break;
       case MOSTRAR_ALUNOS:
         list_apply(alunos, imprimir_aluno);
+        pressione_para_continuar();
         break;
       case MOSTRAR_DISCIPLINAS:
         printf("md");
+        break;
+      case CONSULTAR_ALUNO:
+        erro = consultar_aluno(alunos);
+        if (erro == CODIGO_INVALIDO) printf("\nCodigo invalido!\n");
+        if (erro == CPF_INVALIDO) printf("\nCPF invalido!\n");
+        if (erro == ALUNO_NAO_ENCONTRADO) printf("\nAluno nao encontrado!\n");
+        pressione_para_continuar();
+        break;
+      case CONSULTAR_DISCIPLINA:
+        printf("cd");
         break;
       case SAIR:
         sair = 1;
@@ -62,6 +75,10 @@ int main() {
         printf("def");
     }
   } 
+
+  imprimir_borda();
+  printf("\nSalvando alteracoes...\n");
+  imprimir_borda();
   
   // Persistir memoria
   list_save(alunos, "alunos.bin", fwrite_aluno);
@@ -83,6 +100,8 @@ void imprimir_menu() {
   printf("%d - Remover disciplina\n", REMOVER_DISCIPLINA);
   printf("%d - Mostrar alunos cadastrados\n", MOSTRAR_ALUNOS);
   printf("%d - Mostrar disciplinas cadastradas\n", MOSTRAR_DISCIPLINAS);
+  printf("%d - Consultar aluno\n", CONSULTAR_ALUNO);
+  printf("%d - Consultar disciplina\n", CONSULTAR_DISCIPLINA);
   printf("%d - Sair\n", SAIR);
   imprimir_borda();
 }

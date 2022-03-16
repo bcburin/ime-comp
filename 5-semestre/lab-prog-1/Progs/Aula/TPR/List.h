@@ -94,7 +94,7 @@ void* list_index(List *list, int index);  // Retorna elemento na posicao index
 /* Retorna primeiro elemento que retorne verdadeiro para condicao enviada
  * A condicao eh um ponteiro para funcao que retorna int e recebe parametro do tipo void* (cuidado!)
  */
-void* list_search(List *list, int (*condition)(void *data));
+void* list_search(List *list, int (*condition)(void *data, void *key), void *key);
 
 
 /* FUNCOES DE MODIFICACAO */
