@@ -29,6 +29,12 @@ $$
 = \mathcal{F}[g(t)]
 $$
 
+E seu valor é dado por
+
+$$
+\mathcal{F}[g(t)] = c_1 \mathcal{F}[g_1(t)] + c_2 \mathcal{F}[g_2(t)]
+$$
+
 ---
 
 Tags: #principios-telecom 

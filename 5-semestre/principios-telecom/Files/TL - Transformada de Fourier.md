@@ -106,7 +106,7 @@ $$
 
 ### Exemplo 3
 
-Seja o sinal determístico e aperiódico $g$, dado no domínio do tempo por $g(t) = u(-t)\,e^{at} + u(t)e^{-at}$. Nesse caso, por [[TL - TF Linearidade|linearidade]]
+Seja o sinal determístico e aperiódico $g$, dado no domínio do tempo por $g(t) = u(-t)\,e^{at} + u(t)e^{-at} = e^{-a|t|}$. Nesse caso, por [[TL - TF Linearidade|linearidade]]
 
 $$
 \begin{align*}

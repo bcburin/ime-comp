@@ -17,9 +17,17 @@ $$
 
 ### Propriedades
 
+- Relação com a função degrau unitário
+   $$
+  \begin{align*}
+	& \int_{-\infty}^t \delta(t) \,\mathrm{d}t = u(t) \\\\
+	& \delta(t) = \frac{\mathrm{d}u)t}{\mathrm{d}t}
+  \end{align*} 
+  $$
+
 - Quando é fator de um integrando
    $$
-   \int_{-\infty}^\infty \delta(t-a)g(t)\,\mathrm{d}t = g(a)
+   \int_{-\infty}^\infty \delta(t-t_0)g(t)\,\mathrm{d}t = g(t_0)
    $$
    
 - Da propriedade acima,
