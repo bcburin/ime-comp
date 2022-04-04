@@ -38,7 +38,7 @@ $$
 
 ### Exemplo
 
-Seja o caso em que queremos encontrar a força de arrasto como funão $F_D = F_D(L,V,\rho,\mu)$. Temos um caso de $5$ varíaveis
+Seja o caso em que queremos encontrar a força de arrasto como função $F_D = F_D(L,V,\rho,\mu)$. Temos um caso de $5$ varíaveis
 
 $$
 G(F_D, L, V, \rho, \mu) = 0
