@@ -6,7 +6,7 @@
 
 ### Definição
 
-Seja a [[MD - Relação Binária|relação]] $\mathbf{R} = (A,B,\mathcal{R})$. Ela é, por definição, total à esquerda (ou função multivalorada) se  
+Seja a [[MD - Relação Binária|relação]] $\mathbf{R} = (A,B,\mathcal{R})$. Ela é, por definição, sebrejetora se  
 
 $$\forall b \in B,\;\exists\, a \in A \text{ tal que } a\,\mathcal{R}\,b$$
 *Note que*

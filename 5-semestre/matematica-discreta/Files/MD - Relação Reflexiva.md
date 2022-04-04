@@ -45,8 +45,8 @@ Uma relação é reflexiva se e só se a sua [[MD - Relação Binária#Represent
 
 ### **Exemplos**
 
-- $\mathbf{R} = \{\varnothing, \varnothing, \varnothing\}$
-- $\mathbf{R} = \{\;\{1,2\}, \{1,2\}, \{(1,1),(2,2)\}\;\}$
+- $\mathbf{R} = (\varnothing, \varnothing, \varnothing)$
+- $\mathbf{R} = (\;\{1,2\}, \{1,2\}, \{(1,1),(2,2)\}\;)$
 
 ---
 

@@ -47,38 +47,61 @@
 
 ##### Grupos
 
-- **Definições**
-	- [[MD - Semigrupo]]
-	- [[MD - Monóide]]
-	- [[MD - Grupo]]
-	- [[MD - Grupo Abeliano]]
-	- [[MD - Grupo Cíclico]]
-	- [[MD - Potências de Elemento de um Grupo]]
-- **Resultados**
+- [[MD - Semigrupo]]
+- [[MD - Monóide]]
+- [[MD - Grupo]]
+- [[MD - Grupo Abeliano]]
+- [[MD - Potências de Elemento de um Grupo]]
+- **Teoremas**
 	- [[MD - Lei do Corte]]	
-	- [[MD - Potência de Elemento de Grupo Cíclico Finito]]
-	- [[MD - Condição Necessária e Suficiente para ser Grupo]]
+	- [[MD - Teorema de Lagrange]]
 
 ##### Subgrupos
 
-- **Definições**
-	- [[MD - Subgrupo]]
-	- [[MD - Subgrupo gerado por um Elemento]]	
-- **Resultados**
+- [[MD - Subgrupo]]
+- [[MD - Subgrupo gerado por um Elemento]]	
+- **Teoremas**
 	- [[MD - Condição Necessária e Suficiente para ser Subgrupo]]
 	- [[MD - Condição Necessária e Suficiente para ser Subgrupo Finito]]
 	- [[MD - Subgrupos de Grupos Cíclicos]]
 
+##### Grupos Cíclicos
+
+
+- [[MD - Grupo Cíclico]]
+- **Teoremas**
+	- [[MD - Potência de Elemento de Grupo Cíclico Finito]]
+	- [[MD - Condição Necessária e Suficiente para ser Grupo]]
+	- [[MD - Comutatividade de Grupos Cíclicos]]
+	- [[MD - Isomorfismos de Grupos Cíclicos]]
+	- [[MD - Cardinalidade de Subgrupos de Grupos Cíclicos]]
+
 ##### Homomorfismos
 
-- **Definições**
-	- [[MD - Homomorfismo]]
-	- [[MD - Núcleo de Homomorfismo]]
-	- [[MD - Imagem de Homomorfismo]]
-	- [[MD - Isomorfismo]]
-- **Resultados**
+- [[MD - Homomorfismo]]
+- [[MD - Núcleo de Homomorfismo]]
+- [[MD - Imagem de Homomorfismo]]
+- [[MD - Isomorfismo]]
+- **Teoremas**
 	- [[MD - Imagem Homomórfica do Elemento Neutro]]
 	- [[MD - Imagem Homomórfica do Elemento Inverso]]
+
+##### Classes Laterais
+- [[MD - Classes Laterais à Esquerda]]
+- [[MD - Classes Laterais à Direita]]
+- [[MD - Congruência de Elementos de um Grupo]]
+- [[MD - Índice de um Subgrupo]]
+- **Teoremas**
+	- [[MD - Cardinalidade das Classes Laterais]]
+	- [[MD - Congruência como Relação de Equivalência]]
+	- [[MD - Classes Laterais como Classes de Equivalência da Congruência]]
+	- [[MD - Teorema de Lagrange]]
+
+##### Subgrupos normais
+- [[MD - Subgrupo Normal]]
+- [[MD - Grupo Quociente]]
+- **Teoremas**
+	- [[MD - Condição Necessária e Suficiente para Subgrupo Normal]]
 
 ---
 

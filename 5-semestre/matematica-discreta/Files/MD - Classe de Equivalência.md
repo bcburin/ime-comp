@@ -12,19 +12,6 @@ $$ {[\,a\,] = \{ x \in X \;|\; x \sim a \} } $$
 
 ---
 
-### **Exemplo**
-
-*Seja a representação matricial de uma relação de equivalência $\mathcal{R}$ sobre um conjunto*
-
-$$
-\begin{pmatrix} 1 & 1 & 0  \\ 1 & 1 & 0  \\ 0 & 0 & 1 \end{pmatrix}
-$$
-*Nesse caso, como $1 \;\mathcal{R}\;2$*
- - $[\,1\,]=[\,2\,]=\{1,2\}$
- - $[\,3\,] = \{3\}$
-
----
-
 ### União
 
 Para uma dada relação de equivalência sobre um conjunto, a união de todas as classes de equivalência é o próprio conjunto.
@@ -52,8 +39,21 @@ Duas classes de equivalência diferentes são disjuntas.
 
 **Demonstração**
 
-Seja $\sim$ uma relação de equivalência sobre o conjunto $X$. Sejam $x,y\in X$ tal que $x\not\sim y$, ou seja, que $x$ e $y$ estejam em classes de equivalência distintas. Suponha, agora, que $[\,x\,] \cap [\,y\,] \neq \varnothing$ . Então existe $z \in X$ tal que $z \in [\,x,]$ e $z \in [\,y\,]$. Logo $z\sim x$ e $z\sim y$. Aplicando simetria e transitividade, temos $x\sim z \wedge z \sim y \implies x\sim y$, que é um absurdo. Portanto a hipótese é false e $[\,x\,]\cap[\,y\,] = \varnothing$.
+Seja $\sim$ uma relação de equivalência sobre o conjunto $X$. Sejam $x,y\in X$ tal que $x\not\sim y$, ou seja, que $x$ e $y$ estejam em classes de equivalência distintas. Suponha, agora, que $[\,x\,] \cap [\,y\,] \neq \varnothing$ . Então existe $z \in X$ tal que $z \in [\,x\,]$ e $z \in [\,y\,]$. Logo $z\sim x$ e $z\sim y$. Aplicando simetria e transitividade, temos $x\sim z \wedge z \sim y \implies x\sim y$, que é um absurdo. Portanto a hipótese é false e $[\,x\,]\cap[\,y\,] = \varnothing$.
 
+---
+
+### **Exemplo**
+
+*Seja a representação matricial de uma relação de equivalência $\mathcal{R}$ sobre um conjunto*
+
+$$
+\begin{pmatrix} 1 & 1 & 0  \\ 1 & 1 & 0  \\ 0 & 0 & 1 \end{pmatrix}
+$$
+*Nesse caso, como $1 \;\mathcal{R}\;2$*
+ - $[\,1\,]=[\,2\,]=\{1,2\}$
+ - $[\,3\,] = \{3\}$
+ 
 ---
 
 Tags: #mat-discreta 
