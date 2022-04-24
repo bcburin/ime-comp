@@ -55,6 +55,7 @@
 - **Teoremas**
 	- [[MD - Lei do Corte]]	
 	- [[MD - Teorema de Lagrange]]
+	- [[MD - Condição Necessária e Suficiente para ser Grupo]]
 
 ##### Subgrupos
 
@@ -66,12 +67,10 @@
 	- [[MD - Subgrupos de Grupos Cíclicos]]
 
 ##### Grupos Cíclicos
-
-
 - [[MD - Grupo Cíclico]]
+- [[MD - Maior Divisor Comum]]
 - **Teoremas**
 	- [[MD - Potência de Elemento de Grupo Cíclico Finito]]
-	- [[MD - Condição Necessária e Suficiente para ser Grupo]]
 	- [[MD - Comutatividade de Grupos Cíclicos]]
 	- [[MD - Isomorfismos de Grupos Cíclicos]]
 	- [[MD - Cardinalidade de Subgrupos de Grupos Cíclicos]]
@@ -85,6 +84,8 @@
 - **Teoremas**
 	- [[MD - Imagem Homomórfica do Elemento Neutro]]
 	- [[MD - Imagem Homomórfica do Elemento Inverso]]
+	- [[MD - Condição Necessária e Suficiente para Homomorfismo Injetivo]]
+	- [[MD - Núcleo de Homomorfismo é Subgrupo Normal]]
 
 ##### Classes Laterais
 - [[MD - Classes Laterais à Esquerda]]
@@ -92,6 +93,7 @@
 - [[MD - Congruência de Elementos de um Grupo]]
 - [[MD - Índice de um Subgrupo]]
 - **Teoremas**
+	- [[MD - Condição NS para Elemento Estar em Subgrupo]]
 	- [[MD - Cardinalidade das Classes Laterais]]
 	- [[MD - Congruência como Relação de Equivalência]]
 	- [[MD - Classes Laterais como Classes de Equivalência da Congruência]]
@@ -102,6 +104,7 @@
 - [[MD - Grupo Quociente]]
 - **Teoremas**
 	- [[MD - Condição Necessária e Suficiente para Subgrupo Normal]]
+	- [[MD - Teorema Fundamental do Homomorfismo]]
 
 ---
 

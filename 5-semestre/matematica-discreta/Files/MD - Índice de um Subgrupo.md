@@ -12,6 +12,15 @@ i_G(H) = \frac{o(G)}{o(H)}
 }
 $$
 
+---
+
+### Notação
+
+Outra notação para representar o índice de $H<G$ é
+
+$$
+(G:H) = \frac{o(G)}{o(H)}
+$$
 
 
 ---
