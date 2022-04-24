@@ -8,7 +8,7 @@ Se $g(t) \leftrightarrow G(f)$ então
 
 $$
 \boxed{
-E_g = \int_{-\infty}^{\infty} |g(t|^2 \,\mathrm{d}t = \int_{-\infty}^{\infty} |G(f)|^2\,\mathrm{d}f
+E_g = \int_{-\infty}^{\infty} |g(t)|^2 \,\mathrm{d}t = \int_{-\infty}^{\infty} |G(f)|^2\,\mathrm{d}f
 }
 $$
 

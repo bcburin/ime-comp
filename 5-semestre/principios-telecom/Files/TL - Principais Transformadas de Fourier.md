@@ -26,7 +26,7 @@
 
 - $\sin(2\pi f_0 t) \leftrightarrow \frac{1}{2j} [\delta(f-f_0) - \delta(f+f_0)]$
 
-- $\mathrm{sgn}(t) \leftrightarrow \frac{1}{j\,2\pi f}$
+- $\mathrm{sgn}(t) \leftrightarrow \frac{1}{j\,\pi f}$
 
 - $u(t) \leftrightarrow \frac{1}{j\,2\pi f} + \frac{1}{2}\delta(f)$
 
