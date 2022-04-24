@@ -30,7 +30,7 @@
 - [[FT - Equação Fundamental da Fluidostática]]
 - [[FT - Teorema de Stevin]]
 - [[FT - Princípio de Pascal]]
-- [[FT - Superfície Plane Submersa]]
+- [[FT - Superfície Plana Submersa]]
 - [[FT - Empuxo]]
 
 ---

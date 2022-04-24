@@ -22,7 +22,7 @@ Em que
 - $h_T$ é a carga retirada por turbinas, cuja potência pode ser dada por
   $$
   \boxed{
-   W_B = \eta_T\;{\rho g Q h_B}
+   W_T = \eta_T\;{\rho g Q h_B}
    }
    $$
 
