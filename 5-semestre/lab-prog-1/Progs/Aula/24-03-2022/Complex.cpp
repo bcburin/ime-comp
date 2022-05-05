@@ -1,15 +1,9 @@
 
 #include "Complex.h"
 
-Complex::Complex(double re /*=0*/, double im /*=0*/) {
-  this->re = re;
-  this->im = im;
-}
+Complex::Complex(double re /*=0*/, double im /*=0*/): re(re), im(im) {}
 
-Complex::Complex(const Complex& z) {
-  re = z.re;
-  im = z.im;
-}
+Complex::Complex(const Complex& z): re(z.re), im(z.im) {}
 
 Complex& Complex::operator+=(const Complex& other) {
   re += other.re;
