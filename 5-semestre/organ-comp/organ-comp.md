@@ -17,6 +17,11 @@
 - [[OC - Desempenho de Instruções]]
 - [[OC - Lei  de Amdhal]]
 
+### Programa armazenado e organizações
+
+- [[OC - Modelo de von Neumann]]
+- [[OC - ISA]]
+
 ---
 
 Tags: #organ-comp
