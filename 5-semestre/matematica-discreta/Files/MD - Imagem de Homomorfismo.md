@@ -10,6 +10,14 @@ $$
 \mathrm{Img}(\varphi) = \{\; \varphi(g)  \;|\; g \in G \;\}
 $$
 
+Para um subconjunto $A \subset G$, define-se a **imagem** de $A$ sob $\varphi$ como o conjunto
+
+$$
+\varphi[A] = \{\; \varphi(g) \;|\; g \in A \;\}
+$$
+
+*Obs: note que $\mathrm{Img}(A) = \varphi[G] \subset G'$*.
+
 ---
 
 ### Teorema
@@ -20,7 +28,7 @@ $$\mathrm{Img}(\varphi) < G'$$
 
 ---
 
-### Demonstração
+### Demonstração 1
 
 Sejam $x,y \in \mathrm{Img}(\varphi)$. Assim, existem $a,b \in G$ tal que
 
@@ -44,6 +52,12 @@ H(a \oplus b^{-1}) = H(a) \otimes H(b^{-1}) = x \otimes y^{-1}
 $$
 
 O que implica $x \otimes y^{-1} \in \mathrm{Img}(\varphi)$, de modo que $\mathrm{Img}(\varphi) < G'$. ^[[[MD - Condição Necessária e Suficiente para ser Subgrupo]]]
+
+---
+
+### Demonstração 2
+
+Esse teorema pode ser visto como o caso especial [[MD - Imagem Homomórfica de Subgrupo|deste teorema]] para o caso $H = G$.
 
 ---
 

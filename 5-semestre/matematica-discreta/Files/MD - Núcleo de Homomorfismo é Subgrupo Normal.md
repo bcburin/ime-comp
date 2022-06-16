@@ -8,7 +8,13 @@ Se $\varphi:G \to G'$ é um [[MD - Homomorfismo|homomorfismo]], então o [[MD - 
 
 ---
 
-### Demonstração
+### Demonstração 1
+
+Este resultado pode ser visto como um corolário [[MD - Classes Laterais de Núcleo de Homomorfismo|deste teorema]].
+
+---
+
+### Demonstração 2
 
 Já sabemos que $\mathrm{ker}\,(\varphi) < G$ ^[[[MD - Núcleo de Homomorfismo#Teorema]]]. Então, basta mostrar que $g\,\mathrm{ker}\,(\varphi)\,g^{-1}=\mathrm{ker}\,(\varphi)$.
 
