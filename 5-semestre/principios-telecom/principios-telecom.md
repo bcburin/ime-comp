@@ -67,6 +67,33 @@
 	- [[TL - Modulação AM]]
 	- [[TL - Modulação AM SSB]]
 
+### UD4 - Sistemas de Comunicações Digitais
+
+- [[TL - Sistemas Digitais]]
+- [[TL - Amostragem]]
+- [[TL - Teorema da Amostragem]]
+- [[TL - Taxa de Nyquist]]
+- [[TL - Quantização]]
+- [[TL - Ruído de Quantização]]
+- [[TL - Quantização não Uniforme]]
+- [[TL - Codificação PCM]]
+- [[TL - Codificação Diferencial]]
+- [[TL - DPCM]]
+- [[TL - Modulação Delta]]
+
+### UD5 - Técnicas Digitais de Modulação
+
+- [[TL - Código de Linha]]
+	- [[TL - Unipolar NRZ]]
+	- [[TL - Polar NRZ]]
+	- [[TL - Unipolar RZ]]
+	- [[TL - Bipolar RZ]]
+	- [[TL - Manchester]]
+
+### UD6 - Distúrbios que Afetam o Desempenho de Sistemas de Comunicações (Ruído)
+
+
+
 
 ---
 
