@@ -20,4 +20,10 @@ Um caminho é dito **hamiltoniano** se percorre exatamente uma vez todos os vér
 
 ---
 
+### Teorema de Euler
+
+Em um grafo, só existe um caminho euleriano se todos os vértices têm grau par.
+
+---
+
 Tags: #mat-discreta 
