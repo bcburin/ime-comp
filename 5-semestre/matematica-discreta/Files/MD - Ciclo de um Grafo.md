@@ -10,13 +10,13 @@ Em um [[MD - Grafo|grafo]], um **ciclo** ou **caminho fechado** é um [[MD - Cam
 
 ### Ciclo euleriano
 
-Um ciclo que é um caminho euleriano (percorre todas as arestas) é dito **ciclo euleriano**.
+Um ciclo que é um caminho euleriano é dito **ciclo euleriano**.
 
 ---
 
 ### Ciclo hamiltoniano
 
-Um ciclo que é um caminho hamiltoniano (percorre todos os vértices) é dito **ciclo hamiltoniano**.
+Um caminho hamiltoniano no qual os vértices final e inicial são adjacentes é chamado de **ciclo hamiltoniano**.
 
 ---
 
