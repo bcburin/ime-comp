@@ -10,13 +10,13 @@ Um caminho (simples) em um [[MD - Grafo|grafo]] é uma sequência que alterna en
 
 ### Caminho Euleriano
 
-Um caminho é dito **euleriano** se percorre todas as arestas do grafo.
+Um caminho é dito **euleriano** se percorre exatamente uma vez todas as arestas do grafo.
 
 ---
 
 ### Caminho Hamiltoniano
 
-Um caminho é dito **hamiltoniano** se percorre todos os vértices de um grafo.
+Um caminho é dito **hamiltoniano** se percorre exatamente uma vez todos os vértices de um grafo.
 
 ---
 
