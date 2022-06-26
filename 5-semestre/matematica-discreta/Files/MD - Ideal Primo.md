@@ -4,7 +4,7 @@
 
 ### Definição
 
-Para um [[MD - Anel|anel]] $R$, um **ideal primo** $N \neq R$ é um [[MD - Ideal|ideal]] se e só se $xy \in N$ implica $x \in R$ ou $y \in R$ para todo $x, y \in R$.
+Para um [[MD - Anel|anel]] $R$, um **ideal primo** $N \neq R$ é um [[MD - Ideal|ideal]] se e só se $xy \in N$ implica $x \in N$ ou $y \in N$ para todo $x, y \in R$.
 
 ---
 
