@@ -1,3 +1,7 @@
+---
+alias: relação de ordem parcial
+---
+
 # Relação de Ordem
 
 [[MD - Relação Antissimétrica|PREV]]	[[MD - Relação Total|NEXT]]	[[matematica-discreta|HOME]]
@@ -8,7 +12,7 @@
 
 Uma [[MD - Relação sobre um conjunto|relação]] sobre um conjunto $A$ é uma relação de ordem (parcial) se e só se é [[MD - Relação Reflexiva|reflexiva]], [[MD - Relação Transitiva|transitiva]] e [[MD - Relação Antissimétrica|antissimétrica]].
 
-Uma [[MD - Relação sobre um conjunto|relação]] sobre um conjunto $A$ é uma relação de ordem parcial se e só se é uma relação de ordem e é uma [[MD - Relação Total|relação total]].
+Uma [[MD - Relação sobre um conjunto|relação]] sobre um conjunto $A$ é uma relação de ordem total se e só se é uma relação de ordem e é uma [[MD - Relação Total|relação total]].
 
 ---
 
