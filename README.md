@@ -2,15 +2,6 @@
 
 ---
 
-### Como acessar os arquivos?
-
-Há duas possibilidades:
-
-- Baixar o .zip do repositório e extraí-lo (não recomendado);
-- Clonar o repositório no ambiente local.
-
-O repositório é constantemente atualizado, e essas mudanças não são automaticamente aplicadas aos arquivos locais. Uma opção seria ficar baixando e extraindo os arquivos, o que não é muito conveniente, dada a quantidade de trabalho manual necessário. A outra possibilidade é clonar o repositório e deixar Git e GitHub automatizarem o processo.
-
 ### Como clonar e atualizar o repositório?
 
 *Obs: se já estiver familiarozado com Git, ignore esta seção*
