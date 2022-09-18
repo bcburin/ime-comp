@@ -1,0 +1,75 @@
+# Redes 1
+---
+
+- [[RE1 - O Processo de Comunicação]]
+- **Redes de Computadores**
+	- [[RE1 - Rede de Computadores]]
+		- [[RE1 - Componentes de uma Rede]]
+		- [[RE1 - Dispositivos de Infraestrutura de Rede]]
+		- [[RE1 - Estrutura de Rede]]
+	- [[RE1 - Classificação das Redes]]
+		- [[RE1 - Arquitetura de Rede]]
+		- [[RE1  - Meios de Transmissão]]
+			- [[RE1 - Par Trançado]]
+			- [[RE1 - Cabo Coaxial]]
+			- [[RE1 - Cabo de Fibra Óptica]]
+			- [[RE1 - Rádio]]
+		- [[RE1 - Extensão Geográfica da Rede]]
+		- [[RE1 - Topologia de Rede]]
+			- [[RE1 - Redes Ponto a Ponto]]
+				- [[RE1 - Topologia Totalmente Ligada]]
+				- [[RE1 - Topologia em Estrela]]
+				- [[RE1 - Topologia Hierárquica]]
+				- [[RE1 - Topologia Distribuída]]
+			- [[RE1 - Redes Multiponto]]
+				- [[RE1 - Topologia em Barra]]
+				- [[RE1 - Topologia em Anel]]
+- **Internet**
+	- [[RE1 - Conexão Remota de Usuários à Internet]]
+	- [[RE1 - Estrutura da Internet]]
+	- [[RE1 - Suporte de Arquitetura de Rede]]
+	- [[RE1 - Tendências de Rede]]
+- [[RE1 - Centros de Dados]]
+- [[RE1 - Parâmetros de Comparação entre Redes]]
+- [[RE1 - Protocolo]]
+- **Técnicas de Comutação**
+	- [[RE1 - Comutação a Circuito]]
+	- [[RE1 - Comutação a Pacote]]
+		- [[RE1 - Comutação a Pacote por Circuito Virtual]]
+		- [[RE1 - Comutação a Pacote por Datagrama]]
+- **Camadas**
+	- [[RE1 - Arquitetura em Camadas]]
+	- [[RE1 - Elementos de uma Camada]]
+	- [[RE1 - Comunicação entre Camadas]]
+	- [[RE1 - Encapsulamento]]
+- **Modelo OSI**
+	- [[RE1 - Modelo de Referência OSI]]
+		- [[RE1 - OSI - Camada Física]]
+		- [[RE1 - OSI - Camada de Enlace]]
+		- [[RE1 - OSI - Camada de Rede]]
+		- [[RE1 - OSI - Camada de Transporte]]
+		- [[RE1 - OSI - Camada de Sessão]]
+		- [[RE1 - OSI - Camada de Apresentação]]
+		- [[RE1 - OSI - Camada de Aplicação]]
+-**Modelo TCP/IP**
+	- [[RE1 - Modelo TCP-IP]]
+		- [[RE1 - TCP-IP - Intra-rede]]
+		- [[RE1 - TCP-IP - Inter-rede]]
+		- [[RE1 - TCP-IP - Transporte]]
+		- [[RE1 - TCP-IP - Aplicação]]
+- **Aplicações de Rede**
+	- [[RE1 - Aplicação de Rede]]
+		- [[RE1 - Canais lógicos]]
+		- [[RE1 - Protocolos da Camada de Aplicação]]
+		- [[RE1 - Definição de Protocolo da Camada de Aplicação]]
+		- **Arquiteturas de Aplicação**
+			- [[RE1 - Arquitetura Cliente-Servidor]]
+			- [[RE1 - Arquitetura Peer-to-Peer]]
+			- [[RE1 - Arquitetura Híbrida]]
+- [[RE1 - Comunicação de Processos]]
+	- [[RE1 - Socket]]
+	- [[RE1 - Processos de Endereçamento]]
+
+---
+
+Tags: #redes1
