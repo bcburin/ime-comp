@@ -11,7 +11,7 @@
 	- O modelo não é muito simples, em especial quanto aos conceitos de [[BD - Cardinalidade|cardinalidade]], [[BD - Identificador de Entidade|identificação]] e [[BD - Abstração por Generalização#Cobertura de Generalizações|cobertura de generalização]] 
 	- A solução é produzir diagramas ER em diferentes níveis de detalhe
 - **Minimalidade**
-	- À exceção dos [[BD - Atributos#Tipos de Atributo|atributos compostos]], nenhum conceito do modelo pode ser descrito em termos dos demais
+	- À exceção dos [[BD - Atributo ER#Tipos de Atributo|atributos compostos]], nenhum conceito do modelo pode ser descrito em termos dos demais
 	- O fato da mesma realidade poder ser modelada de maneiras diferentes não invalida a minimalidade do modelo
 - **Formalidade**
 	- O modelo possui o necessário grau de formalidade, uma vez qua cada um de seus conceitos possui uma interpretação única e bem definida

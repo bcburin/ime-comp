@@ -5,7 +5,7 @@
 
 ### Definição
 
-[[BD - Atributos|Atributo]] simples ou composto que identifica unicamente cada instância da entidade.
+[[BD - Atributo ER|Atributo]] simples ou composto que identifica unicamente cada instância da entidade.
 
 ---
 
@@ -20,24 +20,6 @@ O identificador de uma entidade pode ser formado
 - Não podem existir duas instâncias da entidade com o mesmo valor do identificador
 - Se qualquer componente do identificador for retirado, a propriedade de unicidade deixa de ser satisfeita
 - Todos os componentes de um identificador devem ser mandatórios, isto é, não podem ser nulos
-
----
-
-### Tipos de Identificadores
-
-- Identificador interno e simples
-![[identificador-interno-simples.png|400]]
-
-- Identificador interno e composto
-![[identificador-interno-composto.png|400]]
-
-
-
-### Entidade Fraca
-
-Entidade cujo identificador é externo ou misto.
-
-![[entidade-fraca.png|550]]
 
 ---
 
