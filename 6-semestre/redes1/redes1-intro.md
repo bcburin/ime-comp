@@ -51,7 +51,7 @@
 		- [[RE1 - OSI - Camada de Sessão]]
 		- [[RE1 - OSI - Camada de Apresentação]]
 		- [[RE1 - OSI - Camada de Aplicação]]
--**Modelo TCP/IP**
+**Modelo TCP/IP**
 	- [[RE1 - Modelo TCP-IP]]
 		- [[RE1 - TCP-IP - Intra-rede]]
 		- [[RE1 - TCP-IP - Inter-rede]]
