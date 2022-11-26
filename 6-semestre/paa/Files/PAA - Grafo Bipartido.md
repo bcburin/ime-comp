@@ -9,5 +9,9 @@ O [[PAA - Grafo|grafo]] $G=(V,E)$ é dito **bipartido** se existe uma partição
 
 ---
 
+*Um grafo é bipartido se e só se é [[PAA - Coloração Própria|2-colorível]], ou seja, se tiver [[PAA - Número Cromático|número cromático]] $\chi(G)=2$.*
+
+---
+
 Tags: #paa
 
