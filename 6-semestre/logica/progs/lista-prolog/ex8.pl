@@ -29,8 +29,6 @@ path(X, Y, P, AccP) :-
     \+ member(Z, AccP),
     path(Z, Y, P, [X|AccP]).
 
-path(X, X, P, P).
+path(X, X, P, AccP) :- reverse([X|AccP], P).
 
-path(X, Y, P) :- 
-    path(X, Y, RP, []),
-    reverse([Y|RP], P).
+path(X, Y, P) :- path(X, Y, P, []).
