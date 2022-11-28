@@ -2,7 +2,6 @@
 
 /* Removes first occurrence of element in list */
 
-remove(_, [], []).
 remove(X, [X|L], L).
 remove(X, [H|L], [H|R]) :- remove(X, L, R).
 
