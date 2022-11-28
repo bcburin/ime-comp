@@ -19,6 +19,8 @@ Seja $S$ um conjunto de [[LG - Cláusula|cláusulas]] com variáveis distintas e
 
 *Dúvida: como se garante que as variáveis de das cláusulas de $S$ sejam distintas? É possível alterá-las livremente como no conversão da forma prenex para garantir isso?*
 
+*Resposta: $S$ é obtido a partir da transformação de uma fórmula para a [[LG - Forma Normal Clausal|forma normal clausal]], ou seja, após ter feito uma conversão prenex. Por isso, as cláusulas terão variáveis distintas.*
+
 ---
 
 Tags: #logica
