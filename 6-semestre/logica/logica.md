@@ -1,5 +1,5 @@
 # Lógica
-[[bibliografia]]
+[[6-semestre/logica/bibliografia]]
 
 ---
 
