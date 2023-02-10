@@ -72,9 +72,67 @@
 
 ### Aprendizado de Máquina
 
+- **Tipos de atributos**
+	- **Qualitativos**
+		- [[IA - Atributos Nominais]]
+		- [[IA - Atributos Ordinais]]
+	- **Quantitativos**
+		- [[IA - Atributos Discretos]]
+		- [[IA - Atributos Contínuos]]
+- **Pré-processamento de Dados**
+	- [[IA - Exploração de Dados]]
+		-  [[IA - Medida de Frequência]]
+		- [[IA - Medida de Localização]]
+		- [[IA - Medida de Dispersão]]
+		- [[IA - Medida de Distribuição]]
+	- [[IA - Seleção de Dados]]
+		- [[IA - Seleção de Dados Horizontal]]
+		- [[IA - Seleção de Dados Vertical]]
+	- [[IA - Limpeza]]
+	- [[IA - Codificação]]
+		- [[IA - Codificação Numérica-Categórica]]
+		- [[IA - Codificação Categórica-Numérica]]
+	- [[IA - Normalização de Dados]]
+	- [[IA - Enriquecimento]]
+	- [[IA - Construção de Atributos]]
+	- [[IA - Correção de Prevalência]]
+	- [[IA - Partição de Dados]]
+		- [[IA - Partição de Dados#Holdout]]
+		- [[IA - Partição de Dados#Validação cruzada com $K$ conjuntos]]
+		- [[IA - Partição de Dados#Validação cruzada com $K$ conjuntos estratificada]]
+		- [[IA - Partição de Dados#Bootstrap]]
+- **Mineração de Regras de Associação**
+	- [[IA - Dataset]]
+	- [[IA - K-Itemset]]
+	- [[IA - Suporte]]
+	- [[IA - Regra de Associação]]
+	- [[IA - Mineração de Regras de associação]]
+	- [[IA - Algoritmo Apriori]]
 - **Classificação**
 	- [[IA - Classificação - Erro]]
 	- [[IA - Classificação - Acurácia]]
+	- [[IA - Matriz de Confusão]]
+	- **Métricas de avaliação**
+		- [[IA - Acurácia Total]]
+		- [[IA - Taxa de Erro Total]]
+		- [[IA - Precisão]]
+		- [[IA - Revocação]]
+		- [[IA - F-Measure]]
+- **Classificadores Bayesianos**
+	- [[IA - Classificador Bayesiano Ingênuo]]
+- **Clusterização**
+	- [[IA - Algoritmos de Compactação]]
+	- [[IA - Algoritmos de Encadeamento]]
+	- [[IA - Algoritmos de Separação espacial]]
+	- [[IA - Família K-Means]]
+
+### Redes Neurais
+- [[IA - Regra de Ajuste de Pesos - Perceptron]]
+- [[IA - Regra de Ajuste de Pesos - MLP]]
+	
+
+
+
 
 ---
 
