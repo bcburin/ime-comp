@@ -4,15 +4,17 @@
       "id": "9b5bb4ec-bd72-4f29-9653-299c44f1fcf9",
       "name": "microproc",
       "type": "Template",
-      "command": false,
+      "command": true,
       "templatePath": "",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "7-semestre/microproc/Files"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false
       },
@@ -23,8 +25,8 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
-      "openFileInMode": "default"
+      "openFile": true,
+      "openFileInMode": "source"
     }
   ],
   "macros": [],
