@@ -1,0 +1,33 @@
+{
+  "choices": [
+    {
+      "id": "9b5bb4ec-bd72-4f29-9653-299c44f1fcf9",
+      "name": "microproc",
+      "type": "Template",
+      "command": false,
+      "templatePath": "",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": false,
+        "folders": [],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false
+      },
+      "appendLink": false,
+      "incrementFileName": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default"
+    }
+  ],
+  "macros": [],
+  "inputPrompt": "single-line",
+  "devMode": false
+}

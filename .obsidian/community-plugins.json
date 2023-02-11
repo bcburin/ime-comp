@@ -1,4 +1,6 @@
 [
   "quick-latex",
-  "obsidian-git"
+  "obsidian-git",
+  "templater-obsidian",
+  "quickadd"
 ]
