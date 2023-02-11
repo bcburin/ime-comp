@@ -1,6 +1,16 @@
-# Obsidian
-.obsidian/
+# Exclude workspace cache
+.obsidian/workspace/*
+.obsidian/workspace.json
+# Exclude configurations for Obsidian Git
+.obsidian/plugins/obsidian-git/data.json
+# Exclude Untitled Notes
+Untitled*
+# Exclude "bad" names
+null*
+
+# Exclude OS settings and caches
 .trash/
+.DS_Store
 
 # VS Code
 .vscode/

@@ -1,0 +1,11 @@
+{
+  "attachmentFolderPath": "6-semestre",
+  "alwaysUpdateLinks": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "pt"
+  ],
+  "spellcheck": true,
+  "promptDelete": false,
+  "showInlineTitle": false
+}

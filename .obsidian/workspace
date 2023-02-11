@@ -1,0 +1,136 @@
+{
+  "main": {
+    "id": "d5b3f8f5eb997db6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f901924f68553926",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b14e20e67b73e203",
+    "type": "split",
+    "children": [
+      {
+        "id": "b2326c5e4c92fb36",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c9c020536025387",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0a191e23e515f1b3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#paa",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "43172b291a473266",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5107650756836
+  },
+  "right": {
+    "id": "942b69a4cf4eba26",
+    "type": "split",
+    "children": [
+      {
+        "id": "af5247a7c44a227c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c6e8351046fe1cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d42ac1ee70e9274f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "13d77076ef88ef69",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b4e1e9c8dd90d702",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f901924f68553926",
+  "lastOpenFiles": [
+    "2022-10-11.md",
+    "6-semestre/logica/logica.md",
+    "6-semestre/logica/Files/LG - FORM.md",
+    "6-semestre/logica/Files/LG - TERM.md",
+    "6-semestre/logica/Files/LG - Linguagem de Tipo de Similaridade.md",
+    "6-semestre/logica/Files/LG - Tipo de Similaridade.md",
+    "6-semestre/logica/Files/LG - Estrutura.md",
+    "6-semestre/logica/Files/LG - Cálculo Proposicional.md",
+    "6-semestre/logica/Files/LG - Conjunto Consistente.md",
+    "6-semestre/logica/Files/LG - Ex1.md"
+  ]
+}
