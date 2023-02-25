@@ -9,6 +9,9 @@
 	- [[MP - Registrador de Dados]]
 	- [[MP - Registradores de Finalidade Geral em Arquiteturas 64 bits]]
 - [[MP - Registradores de Indexação]]
+- **Registradores de Acesso à Pilha**
+	- [[MP - Ponteiro de Pilha]]
+	- [[MP - Ponteiro da Base]]
 
 ## All
 
