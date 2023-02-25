@@ -12,5 +12,5 @@ alias: AX, EAX, RAX
 - Geralmente é usado pelos compiladores para guardar valores retornados de subrotinas
 - Nas arquiteturas mais recentes, é muito usado para endereçar  a memória
 
-#microproc
+#microproc/cap3
 
