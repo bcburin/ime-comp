@@ -7,5 +7,11 @@
 - [[RE2 - Cabeçalhos de Extensão IPv6]]
 - [[RE2 - Fragmentação IPv6]]
 - [[RE2 - Representação de Endereços IPv6]]
+- [[RE2 - Endereço Anycast IPv6]]
+- **Endereços Unicast IPv6**
+	- [[RE2 - Global Unicast]]
+	- [[RE2 - Link-Local]]
+	- [[RE2 - Unique-Local]]
+	- 
 
 #redes2

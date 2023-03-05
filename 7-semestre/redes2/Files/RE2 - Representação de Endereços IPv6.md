@@ -17,8 +17,10 @@ Na representação de endereços IPv6, é permitido
 
 ## URL
 
-Em URLs no IPV
+Em URLs no IPv6 colocados nos navegadores, os endereços são representados entre colchetes. Exemplos
 
+- `http://[2001:12ff:0:4::22]:8080`
+- `http://[2001:12ff:0:4::22]/index.html`
 
 #redes2
 
