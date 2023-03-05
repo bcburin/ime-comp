@@ -16,5 +16,11 @@
 	- [[RE2 - Endereço Não-Especificado]]
 	- [[RE2 - Endereço de Loopback]]
 	- [[RE2 - Endereços IPv4 mapeados em IPv6]]
+- **Técnicas de transição IPv4 para IPv6**
+	- [[RE2 - Pilha Dupla]]
+	- [[RE2 - Túneis]]
+	- [[RE2 - Tradução]]
+	- [[RE2 - Boas Práticas para Técnicas de Transição]]
+	- [[RE2 - Técnicas Statless e Statefull]]
 
 #redes2
