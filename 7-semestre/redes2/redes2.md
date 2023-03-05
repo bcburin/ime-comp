@@ -45,5 +45,8 @@
 
 - [[RE2 - Etapas de um Roteamento]]
 - [[RE2 - Algoritmo Genérico de Roteamento]]
+- [[RE2 - Roteamento Direto]]
+- [[RE2 - Roteamento Indireto]]
+- [[RE2 - Classes de Algoritmos de Roteamento]]
 
 #redes2

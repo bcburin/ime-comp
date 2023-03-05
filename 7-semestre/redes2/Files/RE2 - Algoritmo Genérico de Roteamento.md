@@ -40,10 +40,8 @@ SENÃO SE IPn aparace na tabela
 			especificado
 		FIM
 
-SENÃO SE um roteador default foi especificado
-	ENTÃO envira datagrama para roteador default
-
-SENÃO erro no roteamento
+SE NÂO forem encontrada correspondências
+	ENTÃO declarar erro de roteamento (ICMP)
 ```
 
 
