@@ -11,13 +11,13 @@ Uma das principais diferenças do ICMPv6 em relação ao ICMPv4 é que ele defin
 
 Outra diferença importante é sua utilização **em conjunto com protocolos** implementado funcionalidades
 
-| Sigla              | Funcionalidade                      | Descrição                                                                    |
-| ------------------ | ----------------------------------- | ---------------------------------------------------------------------------- |
-| **MLD**                | *Multicast Linear Discovery*          | Opera com o gerenciamento de grupos multicast                                |
-| **NDP**                | *Neighbor Discovery Protocol*         | Responsável por identificar e aprender características de rede da vizinhança |
-| **Path MTU Discovery** | *Maximum Transmission Unit Discovery* | Trabalha na descoberta do menor MTU no caminho entre dois nós                |
-| -                  | *Mobility Support*                    | Cuida do gerenciamento de endereço de origem de host automaticamente         |
-| -                  | *Autoconfiguração Stateless*          | Permite a aquisição de endereços IPv6 globais sem uso de DHCP                                                                             |
+| Sigla                                            | Funcionalidade                        | Descrição                                                                    |
+| ------------------------------------------------ | ------------------------------------- | ---------------------------------------------------------------------------- |
+| **MLD**                                          | *Multicast Linear Discovery*          | Opera com o gerenciamento de grupos multicast                                |
+| [[RE2 - NDP\|NDP]]                               | *Neighbor Discovery Protocol*         | Responsável por identificar e aprender características de rede da vizinhança |
+| [[RE2 - Path MTU Discovery\|Path MTU Discovery]] | *Maximum Transmission Unit Discovery* | Trabalha na descoberta do menor MTU no caminho entre dois nós                |
+| -                                                | *Mobility Support*                    | Cuida do gerenciamento de endereço de origem de host automaticamente         |
+| -                                                | *Autoconfiguração Stateless*          | Permite a aquisição de endereços IPv6 globais sem uso de DHCP                |
 
 #redes2
 

@@ -31,6 +31,7 @@
 - [[RE2 - Localização de um pacote ICMPv6]]
 - [[RE2 - Classes de Mensagens ICMPv6]]
 - [[RE2 - NDP]]
+- **Funcionalidades**
 	- [[RE2 - Descoberta de Endereços MAC]]
 	- [[RE2 - Descoberta de Roteadores e Prefixos]]
 	- [[RE2 - Detecção de Endereços Duplicados]]
@@ -39,5 +40,9 @@
 	- [[RE2 - Autoconfiguração de Endereços Stateless]]
 	- [[RE2 - Autoconfiguração de Endereços Statefull]]
 	- [[RE2 - Path MTU Discovery]]
+
+## Roteamento IP
+
+- 
 
 #redes2
