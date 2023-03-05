@@ -12,6 +12,9 @@
 	- [[RE2 - Global Unicast]]
 	- [[RE2 - Link-Local]]
 	- [[RE2 - Unique-Local]]
-	- 
+- **Endereços de Uso Especial**
+	- [[RE2 - Endereço Não-Especificado]]
+	- [[RE2 - Endereço de Loopback]]
+	- [[RE2 - Endereços IPv4 mapeados em IPv6]]
 
 #redes2

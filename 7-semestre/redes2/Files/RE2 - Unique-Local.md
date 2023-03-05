@@ -10,7 +10,7 @@
 - **Identificador global -** identificador de 40 bits usado para criar um prefixo globalmente único
 - **Identificador de interface -** identificador da interface, de 64 bits
 
-A estrutura de um endereço ULA é `FDUU:UUUU:UUUU::`
+A estrutura de um endereço ULA é `FDUU:UUUU:UUUU::`, onde `U` são os bits do identificador único, gerado aleatoriamente por um algoritmo específico.
 
 
 #redes2
