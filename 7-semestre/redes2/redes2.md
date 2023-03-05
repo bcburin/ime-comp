@@ -1,5 +1,7 @@
 # Redes de Computadores 2
 
+## IPv6
+
 - [[RE2 - Problemas do IPv4]]
 - [[RE2 - Soluções Paliativas para Problemas do IPv4]]
 - [[RE2 - Principais mudanças IPv4 para IPv6]]
@@ -22,5 +24,9 @@
 	- [[RE2 - Tradução]]
 	- [[RE2 - Boas Práticas para Técnicas de Transição]]
 	- [[RE2 - Técnicas Stateless e Statefull]]
+
+## ICMPv6
+
+
 
 #redes2
