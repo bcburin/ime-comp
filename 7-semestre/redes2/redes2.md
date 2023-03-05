@@ -31,5 +31,7 @@
 - [[RE2 - Localização de um pacote ICMPv6]]
 - [[RE2 - Classes de Mensagens ICMPv6]]
 - [[RE2 - NDP]]
+	- [[RE2 - Descoberta de Endereços MAC]]
+	- [[RE2 - Descoberta de Roteadores e Prefixos]]
 
 #redes2
