@@ -21,6 +21,6 @@
 	- [[RE2 - Túneis]]
 	- [[RE2 - Tradução]]
 	- [[RE2 - Boas Práticas para Técnicas de Transição]]
-	- [[RE2 - Técnicas Statless e Statefull]]
+	- [[RE2 - Técnicas Stateless e Statefull]]
 
 #redes2
