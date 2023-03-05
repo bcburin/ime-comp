@@ -30,6 +30,12 @@ Suporte para a realização de seis funcionalidades
 - **Redirect:** permite ao roteador informar ao nó uma rota melhor a ser utilizada para enviar pacotes a determinado destino
 - **Next-hop determination:** algoritmo para mapear um endereço IP de destino em um endereço IP de um vizinho para onde o tráfego deve ser enviado
 
+## Mensagens NDP
+
+Há dois tipos de mensagem NDP
+
+- 
+
 
 #redes2
 
