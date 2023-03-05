@@ -6,5 +6,6 @@
 - [[RE2 - Cabeçalho IPv6]]
 - [[RE2 - Cabeçalhos de Extensão IPv6]]
 - [[RE2 - Fragmentação IPv6]]
+- [[RE2 - Representação de Endereços IPv6]]
 
 #redes2
