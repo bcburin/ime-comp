@@ -33,5 +33,8 @@
 - [[RE2 - NDP]]
 	- [[RE2 - Descoberta de Endereços MAC]]
 	- [[RE2 - Descoberta de Roteadores e Prefixos]]
+	- [[RE2 - Detecção de Endereços Duplicados]]
+	- [[RE2 - Detecção de Vizinhos Inacessíveis]]
+	- [[RE2 - Redirecionamento]]
 
 #redes2
