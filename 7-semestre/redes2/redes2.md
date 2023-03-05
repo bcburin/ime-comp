@@ -28,5 +28,7 @@
 ## ICMPv6
 
 - [[RE2 - Diferenças entre ICMPv4 e ICMPv6]]
+- [[RE2 - Localização de um pacote ICMPv6]]
+- [[RE2 - Classes de Mensagens ICMPv6]]
 
 #redes2
