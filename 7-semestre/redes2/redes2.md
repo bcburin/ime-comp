@@ -48,5 +48,17 @@
 - [[RE2 - Roteamento Direto]]
 - [[RE2 - Roteamento Indireto]]
 - [[RE2 - Classes de Algoritmos de Roteamento]]
+- [[RE2 - Métricas de Roteamento]]
+- **Roteamento Plano e Hierárquico**
+	- [[RE2 - Roteamento Plano]]
+	- [[RE2 - Roteamento Hierárquico]]
+	- [[RE2 - Sistema Autônomo]]
+- **Algoritmos de Roteamento Interno e Externo**
+	- [[RE2 - Algoritmo de Roteamento Interno]]
+	- [[RE2 - Algoritmo de Roteamento Externo]]
+- **Exemplos de Algoritmos de Roteamento Estáticos**
+	- [[RE2 - Shortest Path]]
+	- [[RE2 - Flooding]]
+	- [[RE2 - Flow-Based]]
 
 #redes2
