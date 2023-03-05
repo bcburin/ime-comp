@@ -43,6 +43,7 @@
 
 ## Roteamento IP
 
-- 
+- [[RE2 - Etapas de um Roteamento]]
+- [[RE2 - Algoritmo Genérico de Roteamento]]
 
 #redes2
