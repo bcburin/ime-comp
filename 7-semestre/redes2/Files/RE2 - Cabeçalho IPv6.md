@@ -22,16 +22,18 @@ Essas alterações permitiram que, mesmo com um espaço para endereçamento de 1
 
 ## Campos
 
+| Campo                    | Tamanho (bits) | Descrição                                     |
+| ------------------------ | -------------- | --------------------------------------------- |
+| Versão                   | 4              | Identifica a versão do protocolo IP utilizado |
+| Classe de tráfego        | 8              | Identifica e diferencia pacotes por classes de serviço ou prioridade. Continua fornecendo as mesmas funcionalidades e definições do campo "Tipo de serviço" do IPv4                                              |
+| Identificador de Fluxo   | 20             | Identifica e diferencia pacotes do mesmo fluxo na camada de rede. Esse campo permite ao roteador identificar o tipo de fluxo de cada pacote, sem necessidade de verificar sua aplicação.                                              |
+| Tamanho de dados         | 16             | Indica o tamanho, em bytes, apenas dos dados enviados junto ao cabeçalho IPv6. Os cabeçalhos de extensão também são incluídos no cálculo do tamanho.                                              |
+| Próximo cabeçalho        | 8              | Indica o cabeçalho que se segue ao cabeçalho IPv6, indicando o valor do cabeçalho de extensão.                                              |
+| Limite de encaminhamento | 8              | Indica o número máximo de roteadores pelos quais o pacote IPv6 pode passar antes de ser descartado, sendo decrementado a cada salto.                                               |
+| Endereço de origem       | 128            | -                                              |
+| Endereço de destino      | 128            |  -                                             |
 
-
-- **Versão (4 bits) -** Identifica a versão do protocolo IP utilizado
-- **Classe de tráfego (8 bits) -** Identifica e diferencia pacotes por classes de serviço ou prioridade. Continua fornecendo as mesmas funcionalidades e definições do campo "Tipo de serviço" do IPv4
-- **Identificador de Fluxo (20 bits) -** Identifica e diferencia pacotes do mesmo fluxo na camada de rede. Esse campo permite ao roteador identificar o tipo de fluxo de cada pacote, sem necessidade de verificar sua aplicação.
-- **Tamanho de dados (16 bits) -** Indica o tamanho, em bytes, apenas dos dados enviados junto ao cabeçalho IPv6. Os cabeçalhos de extensão também são incluídos no cálculo do tamanho.
-- **Próximo cabeçalho (8 bits) -** Indica o cabeçalho que se segue ao cabeçalho IPv6, indicando o valor do cabeçalho de extensão.
-- **Limite de encaminhamento (8 bits) -** Indica o número máximo de roteadores pelos quais o pacote IPv6 pode passar antes de ser descartado, sendo decrementado a cada salto.
-- **Endereço de origem**
-- **Endereço de destino**
+Ver [[RE2 - Cabeçalhos de Extensão IPv6]]
 
 #redes2
 
