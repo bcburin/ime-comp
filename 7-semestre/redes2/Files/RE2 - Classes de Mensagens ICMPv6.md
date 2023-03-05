@@ -12,7 +12,10 @@
 
 - Echo Request / Echo Reply
 - Router Solicitation / Router Advertisement
-- Neighbour 
+- Neighbor Solicitation / Neighbor Advertisement
+- Redirect
+- Multicast Listener
+- etc
 
 
 #redes2
