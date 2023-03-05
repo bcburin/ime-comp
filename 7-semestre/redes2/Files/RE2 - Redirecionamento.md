@@ -11,5 +11,9 @@ Um roteador envia uma mensagem [[RE2 - NDP#Mensagens NDP|Redirect]] após recebe
 
 ![[Pasted image 20230305164245.png]]
 
+**Redirecionamento**
+
+![[Pasted image 20230305164455.png]]
+
 #redes2
 

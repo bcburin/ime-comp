@@ -36,5 +36,8 @@
 	- [[RE2 - Detecção de Endereços Duplicados]]
 	- [[RE2 - Detecção de Vizinhos Inacessíveis]]
 	- [[RE2 - Redirecionamento]]
+	- [[RE2 - Autoconfiguração de Endereços Stateless]]
+	- [[RE2 - Autoconfiguração de Endereços Statefull]]
+	- [[RE2 - Path MTU Discovery]]
 
 #redes2
