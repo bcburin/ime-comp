@@ -56,6 +56,12 @@
 - **Algoritmos de Roteamento Interno e Externo**
 	- [[RE2 - Algoritmo de Roteamento Interno]]
 	- [[RE2 - Algoritmo de Roteamento Externo]]
+- **Algoritmos de Roteamento Local e Global**
+	- [[RE2 - Algoritmo de Roteamento Local]]
+	- [[RE2 - Algoritmo de Roteamento Global]]
+- **Algoritmos de Roteamento Centralizado e Distribuído**
+	- [[RE2 - Algoritmo de Roteamento Centralizado]]
+	- [[RE2 - Algoritmo de Roteamento Distribuído]]
 - **Exemplos de Algoritmos de Roteamento Estáticos**
 	- [[RE2 - Shortest Path]]
 	- [[RE2 - Flooding]]
