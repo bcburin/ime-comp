@@ -14,5 +14,11 @@
 
 ![[Pasted image 20230305220151.png]]
 
+## Organização da Internet
+
+- Uma rede IP é organizada em diversos AS
+- Cada AS é administrado por uma organização independente e pode utilizar seu próprio algoritmo de roteamento
+- Há padronização para roteamento entre AS
+
 #redes2
 
