@@ -18,6 +18,8 @@ Problema da contagem até o infinito
 ![[Pasted image 20230307090012.png]]
 
 **Soluções**
+- Definição de um valor limite para "infinito"
+- Split Horizon
 
 #redes2
 
