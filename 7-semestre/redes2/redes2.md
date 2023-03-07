@@ -68,5 +68,8 @@
 	- [[RE2 - Shortest Path]]
 	- [[RE2 - Flooding]]
 	- [[RE2 - Flow-Based]]
+- **Exemplos de Algoritmos de Roteamento Dinâmicos**
+	- [[RE2 - Distance Vector Routing]]
+
 
 #redes2
