@@ -20,3 +20,5 @@
 - [[LFA - Linguagem Reconhecida por um AFD]]
 - **Técnicas de Construção de um AFD**
 	- [[LFA - Complemento de um AFD]]
+	- [[LFA - Guardar Informação no Estado]]
+	- [[LFA - Produto de Autômatos]]
