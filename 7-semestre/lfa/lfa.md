@@ -2,6 +2,7 @@
 
 [[7-semestre/lfa/bibliografia|bibliografia]]
 
+- **Conceitos Iniciais**
 - [[LFA - Alfabeto]]
 - [[LFA - String]]
 - [[LFA - Concatenação de Strings]]
@@ -22,3 +23,6 @@
 	- [[LFA - Complemento de um AFD]]
 	- [[LFA - Guardar Informação no Estado]]
 	- [[LFA - Produto de Autômatos]]
+- [[LFA - Autômato Finito Não Determinístico]]
+- [[LFA - Generalização da Função de Transição para AFND]]
+- [[LFA - Linguagem Reconhecida por um AFND]]

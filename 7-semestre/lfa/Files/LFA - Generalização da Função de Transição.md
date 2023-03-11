@@ -13,7 +13,7 @@ $$
 \end{align*}
 $$
 
-*Intuição: a ideia é que a função $\hat{\delta}$ permite caminhar pela AFD a partir de certo estado, geralmente $q_0$, usando como passos os caracteres d $\Sigma$ na ordem em que aparecem em $\omega$.*
+*Intuição: a ideia é que a função $\hat{\delta}$ permite caminhar pela AFD a partir de certo estado, geralmente $q_0$, usando como passos os caracteres de $\Sigma$ na ordem em que aparecem em $\omega$. Outra forma de ver, é que $\hat{\delta}(q, \omega)$ representa o estado alcançado partindo de $q$ e seguindo o caminho traçado por $\omega$.*
 
 #lfa
 
