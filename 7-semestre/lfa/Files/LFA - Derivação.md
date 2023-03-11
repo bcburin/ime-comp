@@ -14,6 +14,6 @@ Nesse caso, representa-se $\omega_1 \rightarrow_G \omega_2$ ou, se claro pelo co
 
 ## Em mais de um passo
 
-Define-se $\rightarrow_G^*$ como o [[MD - Fecho Transitivo-Reflexivo|transitivo-reflexivo]] de $\rightarrow_G$
+Define-se $\rightarrow_G^*$ como o [[MD - Fecho Transitivo-Reflexivo|transitivo-reflexivo]] de $\rightarrow_G$. Se  $\omega_1 \rightarrow_G^* \omega_2$, diz-se que $\omega_1$ deriva $\omega_2$ em zero ou mais passos.
 
 #lfa
