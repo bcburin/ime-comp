@@ -18,3 +18,5 @@
 - [[LFA - Autômato Finito Determinístico]]
 - [[LFA - Generalização da Função de Transição]]
 - [[LFA - Linguagem Reconhecida por um AFD]]
+- **Técnicas de Construção de um AFD**
+	- [[LFA - Complemento de um AFD]]
