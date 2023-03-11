@@ -12,3 +12,5 @@
 - [[LFA - Concatenação de Linguagens]]
 - [[LFA - Exponenciação de Linguagens]]
 - [[LFA - Fechos de Linguagens]]
+- [[LFA - Gramática]]
+- [[LFA - Derivação]]
