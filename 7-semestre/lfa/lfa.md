@@ -5,3 +5,6 @@
 - [[LFA - Alfabeto]]
 - [[LFA - String]]
 - [[LFA - Concatenação de Strings]]
+- [[LFA - Conjunto de Strings sobre Alfabeto]]
+- [[LFA - Número de Ocorrências em String]]
+- [[LFA - Tamanho de String]]
