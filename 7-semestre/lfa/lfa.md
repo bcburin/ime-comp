@@ -15,3 +15,4 @@
 - [[LFA - Gramática]]
 - [[LFA - Derivação]]
 - [[LFA - Linguagem Gerada por uma Gramática]]
+- [[LFA - Autômato Finito Determinístico]]
