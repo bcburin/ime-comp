@@ -3,7 +3,7 @@
 
 ## Definição
 
-Com a [[LFA - Concatenação de Linguagens|concatenação de linguagens]], é possível definir uma operação do tipo **exponenciação**
+Com a [[LFA - Concatenação de Linguagens|concatenação de linguagens]], é possível definir uma operação do tipo **exponenciação** par uma [[LFA - Linguagem|linguagem]] $L$
 
 $$
 \begin{align*}
