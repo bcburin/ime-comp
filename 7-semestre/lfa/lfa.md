@@ -8,3 +8,6 @@
 - [[LFA - Conjunto de Strings sobre Alfabeto]]
 - [[LFA - Número de Ocorrências em String]]
 - [[LFA - Tamanho de String]]
+- [[LFA - Linguagem]]
+- [[LFA - Concatenação de Linguagens]]
+- [[LFA - Exponenciação de Linguagens]]
