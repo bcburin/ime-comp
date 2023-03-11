@@ -16,3 +16,5 @@
 - [[LFA - Derivação]]
 - [[LFA - Linguagem Gerada por uma Gramática]]
 - [[LFA - Autômato Finito Determinístico]]
+- [[LFA - Generalização da Função de Transição]]
+- [[LFA - Linguagem Reconhecida por um AFD]]
