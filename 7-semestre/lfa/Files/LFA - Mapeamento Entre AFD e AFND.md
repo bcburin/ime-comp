@@ -13,7 +13,15 @@ Dado um **AFD** $M_1 = (Q, \Sigma, \delta_1, q_0, F)$, a construção do **AFND*
 $$
 \delta_2(q, c) = \{\delta_1(q_c)\}
 $$
-Tome $\omega\in T(M_1)$. Então $\hat{\delta_1}(q_0, \omega) \in F$. Como $\hat{\delta_1}(q_0, om) \in \hat{\delta_2}(q_0, \omega)$, então $\hat{\delta_2}(q_0, \omega) \cap F \neq \varnothing$ e $\omega \in T(M_2)$, ou seja, $T(M_1)\subseteq T(M_2)$. Agora, tome $\omega\in T(M_2)$. Então $\hat{\delta_2}(q_0, \omega) \cap F \neq \varnothing$. Seja $x \in \hat{\delta_2}(q_0, \omega) \cap F$.
+Tome $\omega\in T(M_1)$. Então $\hat{\delta_1}(q_0, \omega) \in F$. Considere $\omega = c_1 c_2 \cdots c_n$ com $c_i \in \Sigma$, então
+
+$$
+\begin{align*}
+\hat{\delta_2}(q_0, \omega)
+&= \hat{\delta_2}(\delta_1(q_0, c_1), c_2\cdots c_n) = \hat{\delta_2}(\delta_1(\delta_1(q_0, c_1), c_2), c_3\cdots c_n)\\
+&= \cdots = \hat{\delta_2}(\delta_1(\delta_1(\delta_1 \cdots \delta_1(q_0, c_1), \cdots), c_{n-1}), c_n)
+\end{align*}
+$$
 
 *TODO: terminar demonstração AFD -> AFND*
 
