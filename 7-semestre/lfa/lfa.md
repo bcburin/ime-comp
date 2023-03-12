@@ -37,3 +37,11 @@
 - **Mapeamentos**
 	- [[LFA - Mapeamento Entre GRD e AFND]]
 	- [[LFA - Mapeamento Entre AFD e AFND]]
+
+## Notas de Aula
+```dataview
+LIST
+FROM "7-semestre/lfa/Notes"
+```
+
+#lfa 
