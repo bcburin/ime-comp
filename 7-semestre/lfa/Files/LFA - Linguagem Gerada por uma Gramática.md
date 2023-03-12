@@ -9,5 +9,7 @@ $$
 L(G) = \{ \omega \in \Sigma^* | S \rightarrow_G^* \omega \}
 $$
 
+Ou seja, o conjunto de todas as [[LFA - String|strings]] que é possível [[LFA - Derivação|derivar]] a partir do símbolo inicial $S$.
+
 #lfa
 
