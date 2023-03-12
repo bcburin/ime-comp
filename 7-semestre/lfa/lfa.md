@@ -17,8 +17,6 @@
 	- [[LFA - Gramática]]
 	- [[LFA - Derivação]]
 	- [[LFA - Linguagem Gerada por uma Gramática]]
-	- [[LFA - Gramática Regular à Direita]]
-	- [[LFA - Mapeamento Entre GRD e AFND]]
 - **AFD**
 	- [[LFA - Autômato Finito Determinístico]]
 	- [[LFA - Generalização da Função de Transição]]
@@ -31,3 +29,7 @@
 	- [[LFA - Autômato Finito Não Determinístico]]
 	- [[LFA - Generalização da Função de Transição para AFND]]
 	- [[LFA - Linguagem Reconhecida por um AFND]]
+- **Gramática Regular**
+	- [[LFA - Gramática Regular à Direita]]
+	- [[LFA - Mapeamento Entre GRD e AFND]]
+	- [[LFA - Linguagem Regular]]
