@@ -7,12 +7,33 @@ Para todo [[LFA - Autômato Finito Não Determinístico|AFND]] $M_1$ é possíve
 
 ## Demonstração
 
-Dado um **AFD** $M_1 = (Q, \Sigma, \delta_1, q_0, F)$, a construção do **AFND** $M_2 = (Q, \Sigma, \delta_2, q_0, F)$ é trivial. Basta que $\delta_1: Q \times \Sigma \to Q$ e $\delta_2: Q \times \Sigma \to P(Q)$ sejam tal que
+### AFD -> AFND
 
+Dado um **AFD** $M_1 = (Q, \Sigma, \delta_1, q_0, F)$, a construção do **AFND** $M_2 = (Q, \Sigma, \delta_2, q_0, F)$ é trivial. Basta que $\delta_1: Q \times \Sigma \to Q$ e $\delta_2: Q \times \Sigma \to P(Q)$ sejam tal que
 $$
 \delta_2(q, c) = \{\delta_1(q_c)\}
 $$
-Tome $\omega\in T(M_1)$. Então $\hat{\delta_1}(q_0, \omega) \in F$. Logo $\hat{\delta_2}(q_0, \omega) \cap F \neq \varnothing$ e $$
+Tome $\omega\in T(M_1)$. Então $\hat{\delta_1}(q_0, \omega) \in F$. Como $\hat{\delta_1}(q_0, om) \in \hat{\delta_2}(q_0, \omega)$, então $\hat{\delta_2}(q_0, \omega) \cap F \neq \varnothing$ e $\omega \in T(M_2)$, ou seja, $T(M_1)\subseteq T(M_2)$. Agora, tome $\omega\in T(M_2)$. Então $\hat{\delta_2}(q_0, \omega) \cap F \neq \varnothing$. Seja $x \in \hat{\delta_2}(q_0, \omega) \cap F$.
+
+*TODO: terminar demonstração AFD -> AFND*
+
+### AFND -> AFD
+
+Dado um **AFND** $M_1 = (Q, \Sigma, \delta_1, q_0, F)$, constrói-se o **AFD** 
+
+$$M_2 = (P(Q), \Sigma, \delta_2, \{q_0\}, {x \in P(Q) \;|\; x \cap F \neq \varnothing})$$
+
+De modo que $\delta_2: P(Q) \times \Sigma \to P(Q)$ seja dada por
+
+$$
+\delta_2(x, c) = \bigcup_{q \in x} \delta_1(q, c)
+$$
+
+*TODO: demonstrar AFND -> AFD*
+
+## Exemplo
+´
+![[Pasted image 20230312002706.png]]
 
 #lfa
 
