@@ -25,6 +25,7 @@
 	- [[LFA - Complemento de um AFD]]
 	- [[LFA - Guardar Informação no Estado]]
 	- [[LFA - Produto de Autômatos]]
+	- [[LFA - Mapeamento Entre AFD e AFND]]
 - **AFND**
 	- [[LFA - Autômato Finito Não Determinístico]]
 	- [[LFA - Generalização da Função de Transição para AFND]]
@@ -33,3 +34,6 @@
 	- [[LFA - Gramática Regular à Direita]]
 	- [[LFA - Mapeamento Entre GRD e AFND]]
 	- [[LFA - Linguagem Regular]]
+- **Mapeamentos**
+	- [[LFA - Mapeamento Entre GRD e AFND]]
+	- [[LFA - Mapeamento Entre AFD e AFND]]
