@@ -16,5 +16,19 @@ Um **programa** é um código passivo armazenado na memória, que se torna um **
 
 *Obs: um programa pode estar relacionado a vários processos, basta executá-lo mais de uma vez. Assim, cada execução receberá uma alocação distinta na memória, executando independentemente uns dos outros.*
 
+## Representação em Linux
+
+```c
+struct task_struct {
+	pid t_pid; /* process identifier */
+	long state; /* state of the process */
+	unsigned int time_slice /* scheduling information */
+	struct task_struct *parent; /* this process’s parent */
+	struct list_head children; /* this process’s children */
+	struct files_struct *files; /* list of open files */
+	struct mm_struct *mm; /* address space of this process */
+};
+```
+
 #so
 
