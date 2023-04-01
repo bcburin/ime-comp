@@ -7,5 +7,7 @@
 - [[SO - Escalonador de Curto Prazo]]
 - [[SO - Escalonador de Médio Prazo]]
 - [[SO - Escalonador de Longo Prazo]]
+- [[SO - Árvore de Processos]]
+- [[SO - Criação de Processo]]
 
 #so
