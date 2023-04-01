@@ -9,5 +9,7 @@
 - [[SO - Escalonador de Longo Prazo]]
 - [[SO - Árvore de Processos]]
 - [[SO - Criação de Processo]]
+- [[SO - Término de Processo]]
+- [[SO - Zombie]]
 
 #so
