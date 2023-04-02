@@ -16,5 +16,7 @@
 	- [[SO - Exec]]
 	- [[SO - Exit]]
 	- [[SO - Wait e Waitpid]]
+- **Comunicação entre processor (IPC)**
+	- [[SO - IPC Memória Compartilhada]]
 
 #so
