@@ -21,7 +21,9 @@ Obs: se os plugins forem habilitados, essa vault já está configurada para usar
 
 ### Como visualizar os arquivos?
 
-Todos os arquivos estão no formato .md (markdown). Em tese, qualquer leitor de texto capaz de interpretar markdown (incluindo o VS Code) serviria. No entanto, sugiro fortemente o uso do [Obsidian](https://obsidian.md/). Esse editor, além de interpretar markdown usual, é capaz de processar LaTeX e permite a criação de _crosslinks_ entre os arquivos, ou seja, arquivos podem conter referências clicáveis para outros arquivos. Essa última propriedade é muito importante devido à estrutura adotada, na qual alguns arquivos servem como _hub_ para vários arquivos.
+Todos os arquivos estão no formato .md (markdown). Em tese, qualquer leitor de texto capaz de interpretar markdown (incluindo o VS Code) serviria. No entanto, sugiro fortemente o uso do [Obsidian](https://obsidian.md/). Esse editor, além de interpretar markdown usual, é capaz de processar LaTeX e permite a criação de _crosslinks_ entre os arquivos, ou seja, arquivos podem conter referências clicáveis para outros arquivos. Essa última propriedade é muito importante devido à estrutura adotada, na qual cada matéria tem uma arquivo _hub_ com *crosslinks* para todas as outras notas da matéria.
+
+No Obsidian, é recomendado usar o *modo de leitura* para simples consulta das notas. Para alterar entre *modo de leitura* e *modo de edição*, basta usar o atalho `CTRL + E`.
 
 ### Estrutura dos arquivos
 
