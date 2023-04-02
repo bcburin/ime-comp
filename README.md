@@ -17,7 +17,7 @@ Para atualizar o repositório, basta utilizar
 git pull origin main
 ```
 
-*Obs: se os plugins forem habilitados, essa vault já está configurada para usar o plugin Obsidian Git, que automatiza diversos fluxos do Git dentro do Obsidian. Nesse caso, basta abrir o paleta de comandos com CTRL + P, e usar o comando Obsidian Git: Pull.*
+Obs: se os plugins forem habilitados, essa vault já está configurada para usar o plugin Obsidian Git, que automatiza diversos fluxos do Git dentro do Obsidian. Nesse caso, basta abrir o paleta de comandos com `CTRL + P`, e usar o comando `Obsidian Git: Pull`.
 
 ### Como visualizar os arquivos?
 
