@@ -1,0 +1,8 @@
+
+# Abordagem Monolítica
+
+
+
+
+#so
+
