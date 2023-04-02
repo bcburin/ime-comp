@@ -5,6 +5,9 @@
 	- [[SO - Abordagem em Camadas]]
 	- [[SO - Abordagem em Módulos]]
 	- [[SO - Estrutura em Microkernel]]
+- **Geração e boot do sistema**
+	- [[SO - SYSGEN]]
+	- [[SO - Bootstrap Loader]]
 - **Processos**
 	- [[SO - Processo]]
 	- [[SO - Estado de Processo]]
