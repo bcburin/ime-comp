@@ -1,5 +1,11 @@
 # Sistemas Operacionais
 
+## Cap 1
+
+- **Arquitetura de SO**
+	- [[SO - Sistema em Lote Simples]]
+	- [[SO - Sistema em Lote Multiprogramado]]
+
 ## Cap 2
 
 - **Passagem de parâmetros ao SO**
