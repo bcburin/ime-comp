@@ -131,7 +131,17 @@ int main() {
 
 Compile e execute os dois programas em terminais distintos. O produtor ficará responsável por escrever na memória compartilhada, enquanto o consumidor ficará responsável por ler os valores e consumi-los.
 
+```bash
+$ gcc -o produtor produtor.c -lrt -pthread
+$ gcc -o consumidor consumidor.c -lrt -pthread
+$ ./produtor
+```
 
+Em outro terminal:
+
+```bash
+$ ./consumidor
+```
 
 #so
 
