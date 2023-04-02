@@ -1,5 +1,11 @@
 # Sistemas Operacionais
 
+## Cap 2
+
+- **Passagem de parâmetros ao SO**
+	- [[SO - Passagem de Parâmetros por Registradores]]
+	- [[SO - Passagem de Parâmetros por Bloco de Memória]]
+	- [[SO - Passagem de Parâmetros por Pilha]]
 -  **Abordagens de desenvolvimento de SO**
 	- [[SO - Abordagem Monolítica]]
 	- [[SO - Abordagem em Camadas]]
@@ -8,6 +14,9 @@
 - **Geração e boot do sistema**
 	- [[SO - SYSGEN]]
 	- [[SO - Bootstrap Loader]]
+
+## Cap 3
+
 - **Processos**
 	- [[SO - Processo]]
 	- [[SO - Estado de Processo]]
@@ -27,6 +36,9 @@
 	- [[SO - Wait e Waitpid]]
 - **Comunicação entre processor (IPC)**
 	- [[SO - IPC Memória Compartilhada]]
+
+## Cap 4
+
 - **Threads**
 	- [[SO - Thread]]
 
