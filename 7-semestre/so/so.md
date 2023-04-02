@@ -3,8 +3,12 @@
 ## Cap 1
 
 - **Arquitetura de SO**
+	- [[SO - Sistemas em Cluster]]
+	- [[SO - Sistemas em Grade]]
+	- [[SO - Sistemas em Tempo Real]]
 	- [[SO - Sistema em Lote Simples]]
 	- [[SO - Sistema em Lote Multiprogramado]]
+	- [[SO - Sistema de Tempo Compartilhado]]
 
 ## Cap 2
 
