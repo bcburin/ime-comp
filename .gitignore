@@ -47,3 +47,7 @@ null*
 *.exe
 *.out
 *.app
+
+# Ignore files without extension that have a file with the same name and .c extension
+*.[^c]
+!*.c
