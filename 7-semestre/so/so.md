@@ -54,4 +54,10 @@
 	- [[SO - Programação Multicore]]
 	- [[SO - POSIX Threads]]
 
+## Cap 5
+
+- [[SO - Condição de Corrida]]
+- [[SO - Seção Crítica]]
+
+
 #so
