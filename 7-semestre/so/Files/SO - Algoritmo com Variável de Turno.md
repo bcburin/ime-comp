@@ -1,7 +1,7 @@
 
 # Algoritmo com Variável de Turno
 
-Em um processo com $n$ threads `Ti`, a variável compartilhada `turn` armazena de qual é a thread que pode executar sua seção crítica
+Em um processo com `n` threads `Ti`, a variável compartilhada `turn` armazena de qual é a thread que pode executar sua seção crítica
 
 - `int turn`
 - inicialmente, `turn = 0`

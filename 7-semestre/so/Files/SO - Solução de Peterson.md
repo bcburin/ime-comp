@@ -1,0 +1,8 @@
+
+# Solução de Peterson
+
+
+
+
+#so
+
