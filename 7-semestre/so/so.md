@@ -58,6 +58,9 @@
 
 - [[SO - Condição de Corrida]]
 - [[SO - Seção Crítica]]
+- **Algoritmos para problema da seção crítica**
+	- [[SO - Algoritmo com Variável de Turno]]
+	- [[SO - Algoritmo com Flags de Pronto]]
 
 
 #so
