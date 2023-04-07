@@ -51,5 +51,7 @@
 
 - **Threads**
 	- [[SO - Thread]]
+	- [[SO - Programação Multicore]]
+	- [[SO - POSIX Threads]]
 
 #so

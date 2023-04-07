@@ -16,8 +16,18 @@ Um thread ou processo leve (LWP – lightweight process) é uma unidade básica 
 
 Compartilha com outros threads pertencentes ao mesmo
 processo:
+
 - seção de código e de dados
 - recursos do sistema operacional (arquivos abertos)
+
+## Vantagens sobre múltiplos processos
+
+- **Capacidade de resposta**
+- **Economia**
+	- Menor tempo de criação/terminação para threads
+	- Menor tempo de troca de contexto entre threads de um mesmo processo
+- **Compartilhamento de recursos** - threads de um mesmo processo compartilham memória e arquivos, então podem se comunicar sem invocar o kernel
+- **Escalabilidade** - utilização de arquiteturas multiprocessadas
 
 #so
 
