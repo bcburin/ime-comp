@@ -56,12 +56,14 @@
 
 ## Cap 5
 
-- [[SO - Condição de Corrida]]
-- [[SO - Seção Crítica]]
+- **Problema da seção crítica**
+	- [[SO - Condição de Corrida]]
+	- [[SO - Seção Crítica]]
 - **Algoritmos para problema da seção crítica**
 	- [[SO - Algoritmo com Variável de Turno]]
 	- [[SO - Algoritmo com Flags de Pronto]]
 	- [[SO - Solução de Peterson]]
+	- [[SO - Sincronização por Hardware]]
 
 
 #so

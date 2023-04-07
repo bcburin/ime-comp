@@ -27,7 +27,7 @@ do {
 
 Esse algoritmo não satisfaz a condição de progresso.
 
-**TODO** por quê?
+Suponha duas threads `T0` e `T1` e suponha que, fora da seção crítica, a thread `T0` faça uma chamada bloqueante de E/S. Quando a thread `T1` terminar de executar, ela cederá seu turno a `T0`. No entanto, `T0` não está pronto para executar. Como consequência, `T1` ficará também bloqueada até que `T0` seja desbloqueada e execute sua seção crítica.
 
 #so
 
