@@ -68,6 +68,8 @@
 	- [[SO - Solução Usando Swap]]
 - **Semáforos**
 	- [[SO - Semáforo]]
+	- [[SO - Semáforo Mutex]]
+	- [[SO - Semáforo de Contagem]]
 - **Problemas clássicos de sincronização**
 - **Monitores**
 
