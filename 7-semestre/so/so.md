@@ -64,6 +64,10 @@
 	- [[SO - Algoritmo com Flags de Pronto]]
 	- [[SO - Solução de Peterson]]
 	- [[SO - Sincronização por Hardware]]
-
+	- [[SO - Solução Usando TestAndSet]]
+	- [[SO - Solução Usando Swap]]
+- **Semáforos**
+- **Problemas clássicos de sincronização**
+- **Monitores**
 
 #so

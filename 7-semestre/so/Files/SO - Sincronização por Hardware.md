@@ -13,5 +13,8 @@ habilita_interrupções;
 
 As máquinas modernas oferecem instruções de hardware **atômicas** (não interrompíveis) especiais.
 
+- [[SO - Solução Usando TestAndSet]]
+- [[SO - Solução Usando Swap]]
+
 #so
 
