@@ -67,6 +67,7 @@
 	- [[SO - Solução Usando TestAndSet]]
 	- [[SO - Solução Usando Swap]]
 - **Semáforos**
+	- [[SO - Semáforo]]
 - **Problemas clássicos de sincronização**
 - **Monitores**
 
