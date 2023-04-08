@@ -1,8 +1,10 @@
+---
+alias: Estagnação
+---
 
-# Starvation
+# Starvation (Estagnação)
 
-
-
+Bloqueio indefinido. Um processo/thread
 
 #so
 
