@@ -70,6 +70,8 @@
 	- [[SO - Semáforo]]
 	- [[SO - Semáforo Mutex]]
 	- [[SO - Semáforo de Contagem]]
+	- [[SO - Deadlock]]
+	- [[SO - Starvation]]
 - **Problemas clássicos de sincronização**
 - **Monitores**
 
