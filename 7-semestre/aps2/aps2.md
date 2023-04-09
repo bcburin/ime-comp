@@ -18,6 +18,8 @@
 	- [[APS2 - Dutos e Filtros]]
 	- [[APS2 - Camadas]]
 	- [[APS2 - Cliente-Servidor]]
+	- [[APS2 - SOA]]
+	- [[APS2 - Black Board]]
 - **Princípios S.O.L.I.D.**
 	- [[APS2 - Single Responsibility Principle]]
 	- [[APS2 - Open-Closed Principle]]
