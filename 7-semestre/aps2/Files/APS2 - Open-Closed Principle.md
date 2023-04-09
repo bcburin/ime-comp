@@ -1,5 +1,5 @@
 ---
-alias: Aberto-Fechado
+alias: OCP
 ---
 
 # Open-Closed Principle

@@ -1,5 +1,5 @@
 ---
-alias: Responsabilidade Única
+alias: SRP
 ---
 
 # Single Responsibility Principle

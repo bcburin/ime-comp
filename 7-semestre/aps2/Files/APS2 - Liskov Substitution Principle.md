@@ -1,3 +1,6 @@
+---
+alias: LSP
+---
 
 # Liskov Substitution Principle
 
