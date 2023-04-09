@@ -20,6 +20,7 @@
 	- [[APS2 - Cliente-Servidor]]
 	- [[APS2 - SOA]]
 	- [[APS2 - Black Board]]
+	- [[APS2 - MVC]]
 - **Princípios S.O.L.I.D.**
 	- [[APS2 - Single Responsibility Principle]]
 	- [[APS2 - Open-Closed Principle]]
