@@ -16,6 +16,8 @@
 	- [[APS2 - Estilo Arquitetural Baseado em Repositórios]]
 - **Arquiteturas de software**
 	- [[APS2 - Dutos e Filtros]]
+	- [[APS2 - Camadas]]
+	- [[APS2 - Cliente-Servidor]]
 - **Princípios S.O.L.I.D.**
 	- [[APS2 - Single Responsibility Principle]]
 	- [[APS2 - Open-Closed Principle]]

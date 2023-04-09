@@ -1,6 +1,8 @@
 
 # Dutos e Filtros
 
+Arquitetura [[APS2 - Estilo Arquitetural Baseado em Fluxo de Dados|baseada em fluxo de dados]].
+
 - Cada passo de processamento é encapsulado em um filtro
 - O dado é passado pelos dutos entre filtros adjacentes
 - Recombinação de filtros permite a construção de famílias de sistemas relacionados
@@ -24,6 +26,23 @@ Construção de um compilador portável para uma linguagem L
 - Decidir como implementar cada conexão de duto
 - Projetar e implementar os filtros
 - Projetar o tratamento de erros
+
+## Vantagens e desvantagens
+
+**Vantagens**
+
+- Flexibilidade para modificação/substituição de filtros
+- Flexibilidade para recombinação de processos
+- Reuso de atividades de processo
+- Ajuda na prototipação rápida
+
+**Desvantagens**
+
+- Possíveis problemas com eficiência
+	- Custos de transferência dedados pode ser alto
+	- Sincronização de filtros pode gerar paradas
+	- Overhead de conversão de dados (uniformidade)
+- Tratamento de erros é um ponto crítico
 
 #aps2
 
