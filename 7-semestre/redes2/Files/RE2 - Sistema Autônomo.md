@@ -1,5 +1,5 @@
 ---
-alias: SA
+alias: SA, AS
 ---
 
 # Sistema Autônomo
