@@ -75,5 +75,9 @@
 	- [[RE2 - OSPF]]
 	- [[RE2 - BGP]]
 
+## Camada de Enlace
+
+- [[RE2 - Objetivos da Camada de Enlace]]
+
 
 #redes2
