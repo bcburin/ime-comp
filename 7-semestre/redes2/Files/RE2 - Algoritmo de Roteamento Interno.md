@@ -1,3 +1,6 @@
+---
+alias: IGP
+---
 
 # Algoritmo de Roteamento Interno
 
