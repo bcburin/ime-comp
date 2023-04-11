@@ -60,7 +60,8 @@ O RIP opera na porta **UDP** 520.
 ## Limitações
 
 - Restrição do roteamento a uma única métrica: contagem de saltos
-- Pequeno valor para infinito (16). Afeta [[SA]]
+- Pequeno valor para infinito (16). Afeta [[RE2 - Sistema Autônomo|SA]] maiores ou que não possuam uma [[RE2 - Roteamento Hierárquico|organização hierárquica]].
+- Utilização apenas da contagem de saltos torna o roteamento relativamente estático.
 
 #redes2
 
