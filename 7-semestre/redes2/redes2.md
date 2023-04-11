@@ -72,6 +72,7 @@
 	- [[RE2 - Distance Vector Routing]]
 	- [[RE2 - Link State]]
 	- [[RE2 - RIP]]
+	- [[RE2 - OSPF]]
 
 
 #redes2
