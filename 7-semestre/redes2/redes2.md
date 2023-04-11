@@ -71,6 +71,7 @@
 - **Exemplos de Algoritmos de Roteamento Dinâmicos**
 	- [[RE2 - Distance Vector Routing]]
 	- [[RE2 - Link State]]
+	- [[RE2 - RIP]]
 
 
 #redes2
