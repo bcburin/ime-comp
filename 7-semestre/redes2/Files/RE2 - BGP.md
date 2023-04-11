@@ -30,8 +30,21 @@ alias: BGP
 - Permite autenticação
 - Interage com [[RE2 - Algoritmo de Roteamento Interno|IGP]]
 
+## Fundamentos
 
+- Rotas consistem em
+	- Destino - usualmente prefixo IP
+	- Informações que descrevem o caminho até o destino
+- Peers BGP anunciam NLRI (Network Layer Reachability Information) entre si em mensagens do tipo update
+- O BGP compara o AS path e outros atributos para selecionar o melhor caminho
+	- Rotas indisponíveis podem ser anunciadas
+	- Rotas não alcançáveis são removidas
 
+## Path Vector
+
+Informa os números dos [[RE2 - Sistema Autônomo|SA]] que compõe o caminho até uma rede de destino e quais redes podem ser alcançadas por este caminho
+
+![[Pasted image 20230411171519.png]]
 
 #redes2
 
