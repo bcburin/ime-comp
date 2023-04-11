@@ -1,3 +1,6 @@
+---
+alias: SA
+---
 
 # Sistema Autônomo
 

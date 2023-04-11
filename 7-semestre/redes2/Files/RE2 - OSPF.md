@@ -66,7 +66,12 @@ alias: OSPF
 	- Há três tipos de rotas: na mesma área, entre áreas e entre SA.
 - Hierarquia em dois níveis: área local, backbone
 	- Anúncios de estado de enlace somente na área
-	- Cada nó tem topologia de área detalhada; somente direção conhecida (caminho mais curto) para redes e
+	- Cada nó tem topologia de área detalhada; somente direção conhecida (caminho mais curto) para redes em outras áreas
+- **roteadores de borda:** resumem distâncias às redes na própria área, anunciam para outros roteadores de borda
+- **roteadores de backbone:** executam roteamento OSPF limitado ao backbone
+- **roteadores de fronteira:** conectam-se a outros SA
+
+![[Pasted image 20230411111608.png]]
 
 #redes2
 
