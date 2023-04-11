@@ -24,7 +24,16 @@ Todo roteador deve conhecer o retardo para cada um de seus vizinhos. Pacotes ECH
 
 ![[Pasted image 20230410232010.png]]
 
-- Os pacotes de enlace podem ser d
+- Os pacotes de enlace podem ser distribuídos de forma confiável. Essa distribuição pode ser realizada por flooding e é controlada pelo número de sequência e pela entidade (TTL), de forma a evitar redundâncias e informações desatualizadas.
+- De posse das informações dos roteadores, o caminho mais curto é  calculado para os destinos possíveis.
+
+O algoritmo OSPF utiliza um algoritmo de roteamento por estado de enlace.
+
+## Distance Vector x Link State
+
+O roteamento de vetores de distância (distance vectors) determina a direção (vetor) e a distância de todos os links na internetwork.
+
+O roteamento por estado de enlace (link state) recria a topologia exata da internetwork inteira, ou pelo menos da parte onde o roteador está situado.
 
 #redes2
 
