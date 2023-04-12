@@ -61,9 +61,9 @@
 	- [[BD - Eliminação de Atributos Multi-Valorados]]
 	- [[BD - Tradução de Entidades em Relações]]
 	- **Tradução de Relacionamentos**
-		- [[BD - Tradução de Relacionamentos N:M]]
-		- [[BD - Tradução de Relacionamentos 1:N]]
-		- [[BD - Tradução de Relacionamentos 1:1]]
+		- [[BD - Tradução de Relacionamentos N-M]]
+		- [[BD - Tradução de Relacionamentos 1-N]]
+		- [[BD - Tradução de Relacionamentos 1-1]]
 		- [[BD - Tradução de Relacionamentos n-ários]]
 		- [[BD - Tradução de Auto Relacionamentos]]
 	- **Tradução de Hierarquias**

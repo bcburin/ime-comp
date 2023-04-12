@@ -16,7 +16,7 @@ Especialização do algoritmo de busca em árvore usando uma **função de avali
 ### Casos particulares
 
 - [[IA - Busca Gulosa pela Melhor Escolha]]
-- [[IA - Busca A*]]
+- [[IA - Busca A-asterisco]]
 
 ---
 

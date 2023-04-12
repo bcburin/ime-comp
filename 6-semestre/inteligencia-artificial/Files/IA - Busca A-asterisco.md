@@ -1,3 +1,6 @@
+---
+alias: Busca A*
+---
 
 # Busca A*
 

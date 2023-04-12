@@ -35,7 +35,7 @@
 - **Algoritmos de Busca com Heurística**
 	- [[IA - Busca pela Melhor Escolha]]
 		- [[IA - Busca Gulosa pela Melhor Escolha]]
-		- [[IA - Busca A*]]
+		- [[IA - Busca A-asterisco]]
 - **Heurística**
 	- **Definições**
 		- [[IA - Heurística Admissível]]
