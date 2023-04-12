@@ -28,7 +28,7 @@ do {
 
 Não satisfaz a condição de progresso.
 
-Se, a qualquer momento, duas flags assumir o valor `true` será atingido um dead lock no qual nenhuma das threads vai executar e ambas vão esperar a outra terminar. Se isso ocorrer, o processo todo será bloqueado.
+Se, a qualquer momento, duas flags assumirem o valor `true` será atingido um dead lock no qual nenhuma das threads vai executar e ambas vão esperar a outra terminar. Se isso ocorrer, o processo todo será bloqueado.
 
 ![[Pasted image 20230407201406.png]]
 
