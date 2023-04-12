@@ -77,5 +77,6 @@
 	- [[SO - Problema dos Leitores-Escritores]]
 	- [[SO - Problema dos Filósofos na Mesa de Jantar]]
 - **Monitores**
+	- [[SO - Monitor]]
 
 #so
