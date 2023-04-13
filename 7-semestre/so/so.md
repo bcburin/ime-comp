@@ -82,5 +82,6 @@
 ## Cap 6
 
 - [[SO - FCFS]]
+- [[SO - SJF]]
 
 #so
