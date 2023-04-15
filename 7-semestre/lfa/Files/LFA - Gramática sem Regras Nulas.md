@@ -1,4 +1,3 @@
-
 # Gramática sem Regras Nulas
 
 Dada uma [[LFA - Gramática Livre de Contexto|GLC]] $G$, existe uma GLC $G'$ tal que

@@ -64,6 +64,8 @@
 	- [[LFA - Gramática sem Regras Nulas]]
 	- [[LFA - Gramática sem Regras Simples]]
 	- [[LFA - Gramática Simplificada]]
+- **Lemas**
+	- [[LFA - Lema do Bombeamento para GLC]]
 
 ## Notas de Aula
 ```dataview

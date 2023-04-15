@@ -1,6 +1,4 @@
-
 # Gramática Simplificada
-
 
 Dada uma [[LFA - Gramática Livre de Contexto|GLC]] $G$, existe uma **GLC simplificada** $G'$ tal que
 
