@@ -42,6 +42,9 @@
 	- [[LFA - Linguagem Livre de Contexto]]
 	- [[LFA - Árvore de Derivação]]
 	- [[LFA - Gramática Ambígua]]
+- **Autômato com Pilha**
+	- [[LFA - Autômato com Pilha]]
+	- [[LFA - Linguagem Reconhecida por um AP]]
 
 ## Notas de Aula
 ```dataview
