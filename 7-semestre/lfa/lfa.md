@@ -60,8 +60,9 @@
 	- [[LFA - Autômato com Pilha Determinístico]]
 - **GLC Simplificadas**
 	- [[LFA - Símbolo Nulificável]]
-	- [[Pares]]
+	- [[LFA - Pares Simples]]
 	- [[LFA - Gramática sem Regras Nulas]]
+	- [[LFA - Gramática sem Regras Simples]]
 
 ## Notas de Aula
 ```dataview
