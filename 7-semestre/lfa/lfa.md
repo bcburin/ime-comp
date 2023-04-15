@@ -63,6 +63,7 @@
 	- [[LFA - Pares Simples]]
 	- [[LFA - Gramática sem Regras Nulas]]
 	- [[LFA - Gramática sem Regras Simples]]
+	- [[LFA - Gramática Simplificada]]
 
 ## Notas de Aula
 ```dataview
