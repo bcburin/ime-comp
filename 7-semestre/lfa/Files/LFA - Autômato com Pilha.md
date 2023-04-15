@@ -15,6 +15,17 @@ Um **autômato com pilha** é uma tupla $P=(Q,\Sigma, \Gamma, \delta, q_0, Z_0, 
 - $Z_0 \in \Gamma$ -> Símbolo inicial da pilha
 - $F \subseteq Q$ -> conjunto de estados finais
 
+## Exemplo 1
+
+O seguinte **AP** [[LFA - Linguagem Reconhecida por um AP|reconhece]] a linguagem $\{a^nb^n | n \geq 0\}$
+
+![[Pasted image 20230415010642.png]]
+
+## Exemplo 2
+
+O seguinte **AP** [[LFA - Linguagem Reconhecida por um AP|reconhece]] a linguagem $\{ x \;|\; x = \omega \omega^R, \, \omega \in \Sigma^+\}$
+
+![[Pasted image 20230415010908.png]]
 
 #lfa
 
