@@ -1,3 +1,6 @@
+---
+alias: GLC, FCG
+---
 
 # Gramática Livre de Contexto
 

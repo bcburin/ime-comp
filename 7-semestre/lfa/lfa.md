@@ -40,6 +40,7 @@
 - **Gramática Livre de Contexto**
 	- [[LFA - Gramática Livre de Contexto]]
 	- [[LFA - Linguagem Livre de Contexto]]
+	- [[LFA - Árvore de Derivação]]
 
 ## Notas de Aula
 ```dataview
