@@ -41,6 +41,7 @@
 	- [[LFA - Gramática Livre de Contexto]]
 	- [[LFA - Linguagem Livre de Contexto]]
 	- [[LFA - Árvore de Derivação]]
+	- [[LFA - Gramática Ambígua]]
 
 ## Notas de Aula
 ```dataview
