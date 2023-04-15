@@ -41,6 +41,7 @@
 	- [[LFA - Linguagem Regular]]
 	- [[LFA - Lema do Bombeamento]]
 - **Expressão Regular**
+	- 
 - **Mapeamentos**
 	- [[LFA - Mapeamento Entre GRD e AFND]]
 	- [[LFA - Mapeamento Entre AFD e AFND]]

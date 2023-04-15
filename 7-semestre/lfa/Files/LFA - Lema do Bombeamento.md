@@ -1,7 +1,6 @@
 
 # Lema do Bombeamento
 
-
 Se $L$ é uma linguagem regular, então 
 
 $$\exists n, \, \forall w \,\left(w \in L \text{ e } |w| \geq n \implies \exists u,v,x, \, w=uvx \text{ tal que} 
