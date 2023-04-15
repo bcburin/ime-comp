@@ -66,6 +66,7 @@
 	- [[LFA - Gramática Simplificada]]
 - **Lemas**
 	- [[LFA - Lema do Bombeamento para GLC]]
+	- [[LFA - Lema de Ogden]]
 
 ## Notas de Aula
 ```dataview
