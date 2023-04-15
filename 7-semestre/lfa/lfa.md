@@ -46,6 +46,7 @@
 	- [[LFA - Autômato com Pilha]]
 	- [[LFA - Linguagem Reconhecida por um AP]]
 	- [[LFA - Linguagem Reconhecida por um AP por Pilha Vazia]]
+	- [[LFA - Autômato com Pilha Determinístico]]
 
 ## Notas de Aula
 ```dataview
