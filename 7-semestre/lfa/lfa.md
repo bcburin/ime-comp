@@ -58,6 +58,8 @@
 	- [[LFA - Linguagem Reconhecida por um AP]]
 	- [[LFA - Linguagem Reconhecida por um AP por Pilha Vazia]]
 	- [[LFA - Autômato com Pilha Determinístico]]
+- **GLC Simplificadas**
+	- [[LFA - Símbolo Nulificável]]
 
 ## Notas de Aula
 ```dataview
