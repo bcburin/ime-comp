@@ -1,0 +1,8 @@
+
+# Pares Simples
+
+
+
+
+#lfa
+
