@@ -1,5 +1,7 @@
 # Microprocessadores
 
+[[MP - Bizus Pré-VC|bizus VC]]
+
 ## Cap 3
 
 - **Registradores de Finalidade Geral**
