@@ -8,5 +8,9 @@ Se $L$ é uma [[LFA - Linguagem Livre de Contexto|LLC]] então $\exists n \in \m
 - $vy \neq \epsilon$
 - $\forall k \in \mathbb{N},\, uv^kxy^kz \in L$
 
+## Negação
+
+![[Pasted image 20230415163425.png]]
+
 #lfa
 
