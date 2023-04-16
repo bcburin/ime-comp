@@ -34,7 +34,7 @@
 - Seção 5.5 -> saber arquiteturas (imagens)
 - Seções 5.6, 5.7, 5.8, 5.9 -> não caem
 - Seção 5.10
-	- Entrosamento de \_ com CPU
+	- Entrosamento de compilador com CPU
 	- Fig 5.18 e 5.21 respondem perguntas da VC
 - Fig 5.43, 5.44 -> compatibilidade do Athlon
 - Fig 5.52 -> Chiplet Raizen
