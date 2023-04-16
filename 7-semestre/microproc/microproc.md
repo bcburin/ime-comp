@@ -15,6 +15,11 @@
 	- [[MP - Ponteiro de Pilha]]
 	- [[MP - Ponteiro da Base]]
 
+## Cap 5
+
+- [[MP - CISC e RISC]]
+- [[MP - Memória RAM]]
+
 ## All
 
 ```dataview
