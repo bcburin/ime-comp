@@ -51,9 +51,11 @@
 - **Gramática Livre de Contexto**
 	- [[LFA - Gramática Livre de Contexto]]
 	- [[LFA - Linguagem Livre de Contexto]]
+	- [[LFA - Linguagem Livre de Contexto Determinística]]
 	- [[LFA - Árvore de Derivação]]
 	- [[LFA - Gramática Ambígua]]
 	- [[LFA - Propriedade de Linguagens Livre de Contexto]]
+	- [[LFA - Propriedade de Linguagens Livre de Contexto Determinísticas]]
 - **Autômato com Pilha**
 	- [[LFA - Autômato com Pilha]]
 	- [[LFA - Linguagem Reconhecida por um AP]]
