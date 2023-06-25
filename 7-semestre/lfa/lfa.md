@@ -71,6 +71,13 @@
 	- [[LFA - Lema do Bombeamento para GLC]]
 	- [[LFA - Lema de Ogden]]
 
+## Unidade 4
+
+- **Gramática Sensível ao Contexto**
+	- [[LFA - Gramática Sensível ao Contexto]]
+	- [[LFA - Linguagem Sensível ao Contexto]]
+	- [[LFA - Autômato com Pilha de Duas Direções]]
+
 ## Notas de Aula
 ```dataview
 LIST
